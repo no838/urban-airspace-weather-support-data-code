@@ -1,0 +1,2 @@
+specification,iteration,permuted_estimate,observed_estimate,p_value,null_q025,null_q95,null_q975,status
+permutation_gpm_summary,summary_only,,0.5185561899224806,0.0,-0.21012595930232558,0.1652659360465116,0.19964685465116278,ok

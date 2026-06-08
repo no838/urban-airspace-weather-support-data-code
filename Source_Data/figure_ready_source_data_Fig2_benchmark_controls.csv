@@ -1,0 +1,7 @@
+claim_role,metric,value,unit,status,claim_boundary
+core phenomenon,year_2024_residual_deficit_q75_rows,657,component-years,supports screening claim,residual high-need lower-than-expected public support
+core phenomenon,support_model_r2,0.32256049274380705,r2,diagnostic,"expected support model, not causal"
+denominator boundary,year_2024_denominator_false_q75_deficit_rows,183,component-years,uncertainty gate,must persist outside denominator-uncertain stratum
+country dominance boundary,exclude_china_india_retained_share,0.6423135464231354,share,dominance gate,not a single-country universality claim
+benchmark boundary,max_simple_benchmark_overlap,0.1659056316590563,share,benchmark gate,not reproduced by simple benchmark if low
+validation boundary,event_validation_status,pending stability parser,label,hold,no weather-relevance upgrade before matched true-source validation

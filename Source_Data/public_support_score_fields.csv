@@ -1,0 +1,7 @@
+field,role_in_manuscript,use_in_reproducibility
+public_hourly_surface_observation_support,Primary public support score used as S in the residual screen.,"Defines observed public hourly support for Fig. 1, Fig. 2 and Fig. 4 diagnostics."
+public_hourly_station_count_50km,Traceable public hourly station-count field.,Audits the public hourly support substrate around each component.
+official_station_count_50km,Official station-universe count field.,Provides a legacy station-universe reference for denominator diagnostics.
+public_hourly_availability_ratio,Ratio field for public hourly availability.,Documents persistence of public hourly support.
+station_universe_completeness_ratio,Completeness ratio for the station-universe boundary.,Supports denominator-certain/uncertain classification.
+public_support_z,Standardized public-support field.,Used in expected-support modelling and residual construction.

@@ -1,0 +1,7 @@
+source_table,grain,key_fields,purpose
+event_true_source_panel.csv,event component-date,"event_id, component_id, event_date_utc, dominant_hazard, GPM precipitation",Candidate-event universe and event-day weather proxy.
+event_matched_low_gap_controls.csv,event-control pair,"match_id, control_component_id, match_stage, match_distance_score, match_country_equal, match_koppen_equal",Matched low-gap controls and balance/matching diagnostics.
+event_placebo_controls.csv,event-control-placebo row,"placebo_date_utc, placebo_source_rule, observed_minus_placebo_diff, placebo_status",Event-minus-placebo net contrast and placebo eligibility.
+event_false_event_controls.csv,event-control-false-event row,"false_event_date_utc, false_event_source_rule, observed_minus_false_event_diff, false_event_status",False-event negative-control diagnostic.
+event_permutation_results.csv,summary,"observed_estimate, p_value, null_q025, null_q975",Matched-set label-permutation null envelope.
+event_robustness_estimates.csv,robustness specification,"estimate, ci_low, ci_high, n_pairs, boundary_note",Reported contrast estimates and 95% intervals.

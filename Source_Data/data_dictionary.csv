@@ -1,0 +1,11 @@
+file,grain,purpose
+component_year_panel_full.csv,component-year,"Residual object construction, global map, threshold and denominator sensitivity."
+expected_support_model_diagnostics.csv,component-year,Observed vs predicted support and residual distribution diagnostics.
+benchmark_screen_rankings.csv,2024 component,"Benchmark non-equivalence, overlap, rank and top-decile comparisons."
+event_true_source_panel.csv,event component-date,Event source distribution and event-day hazard metrics.
+event_matched_low_gap_controls.csv,event-control pair,Matched-control event validation and matching-balance diagnostics.
+event_robustness_estimates.csv,robustness specification,"Forest/specification plot for robustness, placebo, null and boundary checks."
+event_placebo_controls.csv,event-control-placebo row,Strict placebo diagnostics.
+event_false_event_controls.csv,event-control-false-event row,False-event negative control diagnostics.
+event_permutation_results.csv,summary only,Permutation summary; iteration-level table is not available in current derived export.
+country_metadata.csv,country,Spatial grouping; world_region/income_group currently unavailable where blank.

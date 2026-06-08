@@ -1,0 +1,4 @@
+model_name,n,r2,need_composite_coef,need_composite_partial_corr,x_columns,cv_r2,rmse,mae,delta_r2,aic,bic
+need_only,11422,0.1613336137325475,0.4016635578846396,,need_composite_z,,,,,,
+legacy_controls,11422,0.285064202367464,0.2402222817290978,0.2481461073471831,need_composite_z|population_density_proxy_z|nearest_airport_km_z|official_station_density_50km_z|coast_distance_km_z|gdp_density_score_z,,,,,,
+denominator_false,5733,0.3021671613953707,0.1839127176299959,0.2393331661152392,need_composite_z|population_density_proxy_z|nearest_airport_km_z|official_station_density_50km_z|coast_distance_km_z|gdp_density_score_z,,,,,,

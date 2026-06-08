@@ -1,0 +1,9 @@
+
+pandas
+numpy
+matplotlib
+python-docx
+Pillow
+geopandas
+shapely
+pyarrow

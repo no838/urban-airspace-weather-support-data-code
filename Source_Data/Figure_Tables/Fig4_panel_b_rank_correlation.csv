@@ -1,0 +1,8 @@
+benchmark,spearman_rho_with_residual_deficit,n
+Coastal demand,-0.07926233137268114,11422
+Legacy demand,-0.07879891537982106,11422
+Airport,-0.05738853118482895,11422
+Population,0.09043582999292799,11422
+Climate,0.22448272914448725,11422
+Station density,0.42825085693188875,11422
+Random coverage,,0

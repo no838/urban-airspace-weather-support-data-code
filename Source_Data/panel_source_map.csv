@@ -1,0 +1,42 @@
+figure_id,panel,role,source_type,source_file,status
+Figure_1,a,global component map,figure-ready table,figure_ready_source_data_Fig1_global_map.csv,PASS
+Figure_1,b,country retained-row ranking,derived table,Figure_Tables/Fig1_panel_b_country_counts.csv,PASS
+Figure_1,c,country cumulative concentration,derived table,Figure_Tables/Fig1_panel_c_country_concentration.csv,PASS
+Figure_2,a,need-support decile scaling,derived table,Figure_Tables/Fig2_panel_a_need_support_deciles.csv,PASS
+Figure_2,b,residual distribution and retained subset,derived table,Figure_Tables/Fig2_panel_b_residual_distribution_summary.csv,PASS
+Figure_2,c,decision plane sample,derived table,Figure_Tables/Fig2_panel_c_decision_plane_sample.csv,PASS
+Figure_2,d,annual q-threshold stability,derived table,Figure_Tables/Fig2_panel_d_annual_threshold_stability.csv,PASS
+Figure_3,a,event stream by year and hazard,derived table,Figure_Tables/Fig3_panel_a_event_stream.csv,PASS
+Figure_3,b,main/event-minus-placebo/false-event contrasts,derived table,Figure_Tables/Fig3_panel_b_contrasts.csv,PASS
+Figure_3,c,leave-out stability,derived table,Figure_Tables/Fig3_panel_c_leaveout.csv,PASS
+Figure_3,d,covariate balance,derived table,Figure_Tables/Fig3_panel_d_balance.csv,PASS
+Figure_3,e,permutation null,derived table,Figure_Tables/Fig3_panel_e_permutation.csv,PASS
+Figure_3,f,hazard-family contrasts,derived table,Figure_Tables/Fig3_panel_f_hazard_family.csv,PASS
+Figure_4,a,q75 benchmark overlap,derived table,Figure_Tables/Fig4_panel_a_benchmark_overlap.csv,PASS
+Figure_4,b,q75 residual-deficit rank association,derived table,Figure_Tables/Fig4_panel_b_rank_correlation.csv,PASS
+Figure_4,c,expected-support model performance,derived table,Figure_Tables/Fig4_panel_c_expected_support_model_performance.csv,PASS
+Figure_4,d,denominator threshold sensitivity,derived table,Figure_Tables/Fig4_panel_d_denominator_threshold_sensitivity.csv,PASS
+Supplementary_Figure_1,a-d,data universe and coverage audit,derived table,Figure_Tables/Supplementary_Figure_1_source.csv,PASS
+Supplementary_Figure_2,a,proxy correlation matrix,derived table,Figure_Tables/Supplementary_Figure_2_corr.csv,PASS
+Supplementary_Figure_2,b,proxy association with need composite,derived table,Figure_Tables/Supplementary_Figure_2_proxy_assoc.csv,PASS
+Supplementary_Figure_2,c,annual retained rows by threshold,derived table,Figure_Tables/Supplementary_Figure_2_thresholds.csv,PASS
+Supplementary_Figure_2,d,need composite by denominator status,source table,component_year_panel_full.csv,PASS
+Supplementary_Figure_3,a-b,prediction and residual diagnostics,source table,expected_support_model_diagnostics.csv,PASS
+Supplementary_Figure_3,c,residual by year,derived table,Figure_Tables/Supplementary_Figure_3_residual_by_year.csv,PASS
+Supplementary_Figure_3,d,model-performance summary,derived table,Figure_Tables/Supplementary_Figure_3_model_performance.csv,PASS
+Supplementary_Figure_4,a,expanded Jaccard benchmark matrix,derived table,Figure_Tables/Supplementary_Figure_4_jaccard.csv,PASS
+Supplementary_Figure_4,b,expanded rank association,derived table,Figure_Tables/Supplementary_Figure_4_rank_assoc.csv,PASS
+Supplementary_Figure_5,a-c,event/control separation and match diagnostics,source/derived tables,event_true_source_panel.csv; event_matched_low_gap_controls.csv; Figure_Tables/Supplementary_Figure_5_exact_match.csv,PASS
+Supplementary_Figure_5,d,post-match covariate balance,derived table,Figure_Tables/Supplementary_Figure_5_balance.csv,PASS
+Supplementary_Figure_6,a,year-stratified GPM contrast,derived table,Figure_Tables/Supplementary_Figure_6_year_estimates.csv,PASS
+Supplementary_Figure_6,b,country-stratified GPM contrast,derived table,Figure_Tables/Supplementary_Figure_6_country_estimates.csv,PASS
+Supplementary_Figure_6,c,denominator-status GPM contrast,derived table,Figure_Tables/Supplementary_Figure_6_summary.csv,PASS
+Supplementary_Figure_6,d,additional robustness families,source table,event_robustness_estimates.csv,PASS
+Supplementary_Figure_7,a,strict placebo diagnostic,derived table,Figure_Tables/Supplementary_Figure_7_placebo_values.csv,PASS
+Supplementary_Figure_7,b,false-event negative control,derived table,Figure_Tables/Supplementary_Figure_7_false_event_values.csv,PASS
+Supplementary_Figure_7,c,permutation-null envelope,source table,event_permutation_results.csv,PASS
+Supplementary_Figure_7,d,negative-control branches,derived table,Figure_Tables/Supplementary_Figure_7_negative_controls.csv,PASS
+Supplementary_Figure_8,a,country concentration curve,derived table,Figure_Tables/Supplementary_Figure_8_country_concentration.csv,PASS
+Supplementary_Figure_8,b,top retained countries,derived table,Figure_Tables/Fig1_panel_b_country_counts.csv,PASS
+Supplementary_Figure_8,c,coastal-demand sensitivity,derived table,Figure_Tables/Supplementary_Figure_8_coastal_sensitivity.csv,PASS
+Supplementary_Figure_8,d,denominator boundary,derived table,Figure_Tables/Supplementary_Figure_8_denominator.csv,PASS

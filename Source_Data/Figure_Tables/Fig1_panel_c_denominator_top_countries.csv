@@ -1,0 +1,108 @@
+country,denominator_uncertainty_flag,retained_rows
+Albania,False,2
+Algeria,False,2
+Algeria,True,1
+Argentina,False,7
+Argentina,True,5
+Aruba,False,1
+Azerbaijan,False,1
+Bahamas,True,1
+Barbados,True,1
+Belarus,False,2
+Belarus,True,2
+Bosnia and Herzegovina,True,2
+Brazil,False,5
+Brazil,True,11
+Brunei,True,1
+Bulgaria,True,2
+Cambodia,False,2
+Canada,False,1
+Canada,True,4
+Chile,True,3
+China,False,9
+China,True,131
+Colombia,True,5
+Costa Rica,True,1
+Croatia,False,1
+Croatia,True,2
+Curaçao,True,1
+Cyprus,True,4
+Czechia,True,4
+Côte d'Ivoire,True,7
+Dominican Republic,True,1
+Ecuador,False,2
+Equatorial Guinea,False,1
+Estonia,True,2
+Finland,True,2
+France,False,4
+French Guiana,True,1
+Gabon,True,1
+Georgia,False,1
+Germany,True,3
+Ghana,True,2
+Greece,True,3
+Hungary,True,3
+Iceland,False,1
+India,False,38
+India,True,57
+Indonesia,True,8
+Iran,False,15
+Iran,True,8
+Iraq,False,1
+Iraq,True,1
+Ireland,False,1
+Ireland,True,1
+Italy,False,4
+Italy,True,1
+Jamaica,True,4
+Japan,True,2
+Kazakhstan,False,1
+Kazakhstan,True,2
+Kosovo,False,2
+Kosovo,True,2
+Lebanon,True,1
+Lithuania,False,1
+Lithuania,True,1
+Malaysia,True,6
+Malta,True,1
+Mauritius,True,1
+Montenegro,True,2
+México,False,20
+México,True,13
+Nepal,True,1
+New Caledonia,False,1
+New Zealand,True,2
+Nigeria,True,3
+Northern Cyprus,True,1
+Norway,False,1
+Norway,True,4
+Papua New Guinea,True,1
+Philippines,False,2
+Poland,False,4
+Portugal,True,1
+Romania,False,1
+Romania,True,9
+Russia,False,6
+Russia,True,49
+Réunion,True,2
+Saudi Arabia,True,1
+Slovakia,True,1
+South Africa,True,4
+South Korea,True,1
+Spain,False,7
+Spain,True,16
+Sweden,False,2
+Taiwan,True,1
+Thailand,False,1
+Thailand,True,7
+Turkey,False,3
+Turkey,True,11
+Ukraine,False,15
+Ukraine,True,11
+United States,False,5
+United States,True,3
+Uruguay,True,1
+Venezuela,False,7
+Venezuela,True,15
+Vietnam,False,3
+Vietnam,True,12

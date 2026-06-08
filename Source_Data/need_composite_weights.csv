@@ -1,0 +1,4 @@
+field,description,standardization,weight
+demand_proxy_v2,Urban low-altitude demand proxy retained in the component-year export.,Standardized before aggregation.,1/3
+weather_hazard_proxy,Weather-hazard proxy retained in the component-year export.,Standardized before aggregation.,1/3
+urban_form_complexity_proxy,Urban-form complexity proxy retained in the component-year export.,Standardized before aggregation.,1/3
