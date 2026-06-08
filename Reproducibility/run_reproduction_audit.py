@@ -5,9 +5,6 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = [
-    'Manuscript/main_manuscript.docx',
-    'Supplementary_Information/Supplementary_Information.docx',
-    'Cover_Letter/cover_letter.docx',
     'Source_Data/component_year_panel_full.csv',
     'Source_Data/diagnostic_ledger.csv',
     'Source_Data/public_support_score_fields.csv',
@@ -17,10 +14,8 @@ REQUIRED = [
     'Source_Data/event_matched_low_gap_controls.csv',
     'Source_Data/event_permutation_results.csv',
     'Source_Data/event_robustness_estimates.csv',
-    'Figures/Main/Figure_1.pdf',
-    'Figures/Main/Figure_2.pdf',
-    'Figures/Main/Figure_3.pdf',
-    'Figures/Main/Figure_4.pdf',
+    'Reproducibility/requirements.txt',
+    'Reproducibility/scripts/build_v44_top_journal_main_figures.py',
 ]
 
 def count_rows(path):
