@@ -15,7 +15,7 @@ REQUIRED = [
     'Source_Data/event_permutation_results.csv',
     'Source_Data/event_robustness_estimates.csv',
     'Reproducibility/requirements.txt',
-    'Reproducibility/scripts/build_v44_top_journal_main_figures.py',
+    'Reproducibility/scripts/build_main_figures.py',
 ]
 
 def count_rows(path):
