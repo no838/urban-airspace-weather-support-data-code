@@ -576,17 +576,21 @@ def build_supplementary_figure_9():
 
 def update_ledgers():
     report = PACKAGE / "Figures" / "figure_QA_report.csv"
+    if not report.exists():
+        source_report = PACKAGE / "Source_Data" / "figure_QA_report.csv"
+        report.parent.mkdir(parents=True, exist_ok=True)
+        report.write_text(source_report.read_text(encoding="utf-8"), encoding="utf-8")
     lines = report.read_text(encoding="utf-8").splitlines()
     out = []
     for line in lines:
         if line.startswith("Figure_1,"):
-            out.append("Figure_1,1.0,PASS,V44 top-journal polish: cleaner global map without coordinate frame; reduced background lines; country panels kept as compact concentration insets.")
+            out.append("Figure_1,1.0,PASS,Figure polish: cleaner global map without coordinate frame; reduced background lines; country panels kept as compact concentration insets.")
         elif line.startswith("Figure_3,"):
-            out.append("Figure_3,1.0,PASS,V44 top-journal polish: event contrasts and leave-out/hazard boundary made dominant; grey decorative grids removed; null/balance retained as diagnostic panels.")
+            out.append("Figure_3,1.0,PASS,Figure polish: event contrasts and leave-out/hazard boundary made dominant; grey decorative grids removed; null/balance retained as diagnostic panels.")
         elif line.startswith("Figure_4,"):
-            out.append("Figure_4,1.0,PASS,V44 top-journal polish: benchmark non-equivalence and rank association made visually dominant; grey grids removed; denominator/model panels retained as boundary diagnostics.")
+            out.append("Figure_4,1.0,PASS,Figure polish: benchmark non-equivalence and rank association made visually dominant; grey grids removed; denominator/model panels retained as boundary diagnostics.")
         elif line.startswith("Figure_2,"):
-            out.append("Figure_2,1.0,PASS,V44 top-journal polish: decision-screen panels redrawn from figure-ready source data; decorative grey grids removed; only zero/reference evidence guides retained.")
+            out.append("Figure_2,1.0,PASS,Figure polish: decision-screen panels redrawn from figure-ready source data; decorative grey grids removed; only zero/reference evidence guides retained.")
         elif line.startswith("Supplementary_Figure_6,"):
             out.append("Supplementary_Figure_6,1.0,PASS,V44 SI polish: robustness and heterogeneity diagnostics redrawn from figure-ready tables; decorative grey grids removed.")
         elif line.startswith("Supplementary_Figure_7,"):
@@ -597,7 +601,7 @@ def update_ledgers():
             out.append(line)
     report.write_text("\n".join(out) + "\n", encoding="utf-8")
     qa = {
-        "version": "V44 top-journal figure polish",
+        "version": "figure polish",
         "main_figures_redrawn": ["Figure_1", "Figure_2", "Figure_3", "Figure_4"],
         "supplementary_figures_redrawn": ["Supplementary_Figure_6", "Supplementary_Figure_7", "Supplementary_Figure_9"],
         "gridline_policy": "decorative grey gridlines removed; zero/reference/threshold lines retained as thin evidence guides",
@@ -605,9 +609,10 @@ def update_ledgers():
         "claim_ceiling": "visual changes do not upgrade claims beyond bounded planning-screen and diagnostic interpretation",
         "status": "PASS",
     }
-    (QA / "V44_TOP_FIGURE_POLISH_QA.json").write_text(json.dumps(qa, indent=2), encoding="utf-8")
-    (QA / "V44_TOP_FIGURE_POLISH_REPORT.md").write_text(
-        "# V44 Top-Journal Figure Polish Report\n\n"
+    QA.mkdir(parents=True, exist_ok=True)
+    (QA / "figure_polish_QA.json").write_text(json.dumps(qa, indent=2), encoding="utf-8")
+    (QA / "figure_polish_report.md").write_text(
+        "# Figure Polish Report\n\n"
         "- status: PASS\n"
         "- redrawn_main_figures: Figure 1, Figure 2, Figure 3, Figure 4\n"
         "- redrawn_supplementary_figures: Supplementary Figure 6, Supplementary Figure 7, Supplementary Figure 9\n"
@@ -628,4 +633,4 @@ if __name__ == "__main__":
     build_supplementary_figure_7()
     build_supplementary_figure_9()
     update_ledgers()
-    print("V44 main figures rebuilt")
+    print("Main figures rebuilt")
