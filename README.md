@@ -24,7 +24,7 @@ The released layer reproduces standardisation, equal-weight need aggregation, re
 
 ## Version
 
-Release candidate: `v7.0.0`.
+Release candidate: `v7.0.1`.
 
 ## License
 

@@ -89,14 +89,26 @@ def figure1():
     ax_b = fig.add_axes([0.735, 0.59, 0.235, 0.31])
     ax_c = fig.add_axes([0.735, 0.18, 0.235, 0.31])
     cax = fig.add_axes([0.08, 0.105, 0.52, 0.032])
-    # Offline Natural Earth layer bundled with pyogrio test fixtures.
-    shp = Path('/opt/pyvenv/lib/python3.13/site-packages/pyogrio/tests/fixtures/naturalearth_lowres/naturalearth_lowres.shp')
-    world = gpd.read_file(shp)
-    robin = CRS.from_proj4('+proj=robin +datum=WGS84 +units=m +no_defs')
-    world = world.to_crs(robin)
-    world.plot(ax=ax_map, facecolor='#F7F8F8', edgecolor='#D5DCE1', linewidth=0.28)
-    transformer = Transformer.from_crs('EPSG:4326', robin, always_xy=True)
-    x, y = transformer.transform(data['centroid_lon'].to_numpy(), data['centroid_lat'].to_numpy())
+    # Natural Earth is optional because some modern GeoPandas/Pyogrio installs
+    # no longer bundle the old test-fixture shapefile.
+    shp_candidates = [
+        Path('/opt/pyvenv/lib/python3.13/site-packages/pyogrio/tests/fixtures/naturalearth_lowres/naturalearth_lowres.shp'),
+        ROOT / 'Source_Data' / 'naturalearth_lowres' / 'naturalearth_lowres.shp',
+    ]
+    shp = next((candidate for candidate in shp_candidates if candidate.exists()), None)
+    if shp is not None:
+        world = gpd.read_file(shp)
+        robin = CRS.from_proj4('+proj=robin +datum=WGS84 +units=m +no_defs')
+        world = world.to_crs(robin)
+        world.plot(ax=ax_map, facecolor='#F7F8F8', edgecolor='#D5DCE1', linewidth=0.28)
+        transformer = Transformer.from_crs('EPSG:4326', robin, always_xy=True)
+        x, y = transformer.transform(data['centroid_lon'].to_numpy(), data['centroid_lat'].to_numpy())
+    else:
+        ax_map.set_facecolor('#F7F8F8')
+        ax_map.set_xlim(-180, 180)
+        ax_map.set_ylim(-60, 85)
+        ax_map.set_aspect('equal')
+        x, y = data['centroid_lon'].to_numpy(), data['centroid_lat'].to_numpy()
     cmap = mpl.colors.LinearSegmentedColormap.from_list('gap', [TEAL, '#A5CFC8', '#E3C17D', '#E68613'])
     uncertain = data['denominator_uncertainty_flag'].astype(bool).to_numpy()
     sc = ax_map.scatter(np.asarray(x)[~uncertain], np.asarray(y)[~uncertain], c=vals.to_numpy()[~uncertain], cmap=cmap, vmin=vmin, vmax=p99, s=13, marker='o', lw=0.25, edgecolor='#263238', alpha=0.93, zorder=3)

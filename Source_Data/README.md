@@ -1,4 +1,4 @@
-# Source data archive — v7.0.0
+# Source data archive — v7.0.1
 
 This directory contains derived and figure-ready analytical objects for the public hourly weather-support diagnostic.
 
