@@ -1,0 +1,6 @@
+stream_or_diagnostic,event_dates,matched_or_eligible_rows,estimate,ci_low,ci_high,role
+Canonical 2024-calibrated q75 main,152,456,0.4062914210526314,0.07967604270644862,0.7329067993988141,Primary selected-case precipitation consistency check
+Canonical q75 component-cluster sensitivity,152,456,0.4062914210526314,-0.03056808320999216,0.8431509253152549,Dependence sensitivity
+Canonical q75 country-cluster sensitivity,152,456,0.4062914210526314,-0.04992444368652632,0.862507285791789,Dependence sensitivity
+Canonical q75 aligned placebo,119,287,0.21066589895470372,-0.0016741137172764098,0.4230059116266839,Placebo branch
+Canonical q75 false-event control,48,140,0.19171826428571426,-0.39218183239065285,0.7756183609620814,Negative-control branch

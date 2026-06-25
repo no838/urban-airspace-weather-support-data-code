@@ -1,26 +1,30 @@
 # Urban airspace weather-support data and code
 
-This repository contains the derived data and lightweight analysis code supporting the manuscript on public weather-support deficits in urban low-altitude systems.
+This repository contains derived analytical tables and reproducibility code for a global diagnostic of public hourly weather-information support gaps for low-altitude services. The materials support reproduction from the released analytical layer, including the canonical 2024 component screen, country-context sensitivities, definition-stability checks, selected-case precipitation consistency checks and figure-ready source data.
 
 ## Contents
 
-- `Source_Data/`: derived and figure-ready tables, data dictionaries, diagnostic ledgers and audit tables.
-- `Reproducibility/`: environment notes and scripts for auditing the released derived tables and rebuilding figure-ready outputs.
+- `Source_Data/`: derived analytical tables, figure-ready sources, data dictionaries, provenance boundaries and audit tables.
+- `Reproducibility/`: Python scripts for rebuilding the canonical 2024 analysis, main figures, selected supplementary figures and release audit checks.
 
-Raw third-party records are not redistributed because they remain subject to source-specific licensing and access terms. The released materials support verification of the derived analytical objects, figure-ready data, diagnostic ledgers and reproducibility checks used in the manuscript.
+Raw third-party records are not redistributed because they remain subject to source-specific licensing and access terms. The release does not contain publication-facing narrative files, editorial correspondence, credentials, local caches or machine-local paths.
 
 ## Quick start
 
+Run from the repository root:
+
 ```bash
+python Reproducibility/run_canonical_2024_analysis.py
+python Reproducibility/build_weather_support_figures.py
+python Reproducibility/build_weather_support_supplementary_figures.py
 python Reproducibility/run_reproduction_audit.py
-python Reproducibility/scripts/build_v44_top_journal_main_figures.py
 ```
 
-The first command checks the presence and row counts of key released derived tables. The second command rebuilds the figure outputs from the released derived data.
+The released layer reproduces standardisation, equal-weight need aggregation, residual sign, 2024 threshold membership, model sensitivities, selected-case analysis and figures. It does not reconstruct the licensed station-hour archive, original component polygons, complete upstream station processing, constituent-proxy generation formulas or the original GDP-inclusive expected-support fit.
 
-## Data policy
+## Version
 
-This release contains derived, non-raw analytical tables. It does not contain restricted raw observations, local caches, manuscript submission files, cover letters, reviewer correspondence, credentials or machine-local paths.
+Release candidate: `v7.0.0`.
 
 ## License
 

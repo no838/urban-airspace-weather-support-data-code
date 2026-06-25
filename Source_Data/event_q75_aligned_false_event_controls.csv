@@ -1,0 +1,457 @@
+match_id,control_id,event_component_id,event_date_utc,event_country,dominant_hazard,control_component_id,control_country,observed_event_gpm_mm,control_gpm_mm,observed_diff,false_event_source_event_component_id,false_event_date_utc,false_event_source_country,false_event_source_rule,false_event_gpm_mm,false_event_diff,observed_minus_false_event_diff,false_event_status
+4942|2020-01-21|Celaya,4942|2020-01-21|Celaya|ctrl1,4942,2020-01-21,México,low_ceiling_1000m,6696,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2020-01-21|Celaya,4942|2020-01-21|Celaya|ctrl2,4942,2020-01-21,México,low_ceiling_1000m,4288,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2020-01-21|Celaya,4942|2020-01-21|Celaya|ctrl3,4942,2020-01-21,México,low_ceiling_1000m,4134,México,0.0,0.051111,-0.051111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2020-08-29|Celaya,4942|2020-08-29|Celaya|ctrl1,4942,2020-08-29,México,low_ceiling_1000m,6696,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2020-08-29|Celaya,4942|2020-08-29|Celaya|ctrl2,4942,2020-08-29,México,low_ceiling_1000m,4288,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2020-08-29|Celaya,4942|2020-08-29|Celaya|ctrl3,4942,2020-08-29,México,low_ceiling_1000m,4134,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2020-07-08|Karadeniz Ereğli,4379|2020-07-08|Karadeniz Ereğli|ctrl1,4379,2020-07-08,Turkey,low_ceiling_1000m,3459,Turkey,0.405556,0.0,0.405556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2020-07-08|Karadeniz Ereğli,4379|2020-07-08|Karadeniz Ereğli|ctrl2,4379,2020-07-08,Turkey,low_ceiling_1000m,4341,Turkey,0.405556,0.0,0.405556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2020-07-08|Karadeniz Ereğli,4379|2020-07-08|Karadeniz Ereğli|ctrl3,4379,2020-07-08,Turkey,low_ceiling_1000m,858,Turkey,0.405556,0.0,0.405556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2020-06-15|Karadeniz Ereğli,4379|2020-06-15|Karadeniz Ereğli|ctrl1,4379,2020-06-15,Turkey,low_ceiling_1000m,3459,Turkey,0.254444,0.0,0.254444,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2020-06-15|Karadeniz Ereğli,4379|2020-06-15|Karadeniz Ereğli|ctrl2,4379,2020-06-15,Turkey,low_ceiling_1000m,4341,Turkey,0.254444,1.791111,-1.536667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2020-06-15|Karadeniz Ereğli,4379|2020-06-15|Karadeniz Ereğli|ctrl3,4379,2020-06-15,Turkey,low_ceiling_1000m,858,Turkey,0.254444,1.52,-1.265556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2020-04-23|Điện Biên Phủ,175|2020-04-23|Điện Biên Phủ|ctrl1,175,2020-04-23,Vietnam,thunder_or_convective,1739,Vietnam,0.0,0.065556,-0.065556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2020-04-23|Điện Biên Phủ,175|2020-04-23|Điện Biên Phủ|ctrl2,175,2020-04-23,Vietnam,thunder_or_convective,5031,Vietnam,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2020-04-23|Điện Biên Phủ,175|2020-04-23|Điện Biên Phủ|ctrl3,175,2020-04-23,Vietnam,thunder_or_convective,3961,Vietnam,0.0,0.151667,-0.151667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2020-08-15|Điện Biên Phủ,175|2020-08-15|Điện Biên Phủ|ctrl1,175,2020-08-15,Vietnam,thunder_or_convective,1739,Vietnam,0.826111,0.832778,-0.006667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2020-08-15|Điện Biên Phủ,175|2020-08-15|Điện Biên Phủ|ctrl2,175,2020-08-15,Vietnam,thunder_or_convective,5031,Vietnam,0.826111,0.0,0.826111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2020-08-15|Điện Biên Phủ,175|2020-08-15|Điện Biên Phủ|ctrl3,175,2020-08-15,Vietnam,thunder_or_convective,3961,Vietnam,0.826111,0.010556,0.815555,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10954|2020-09-01|Giridih,10954|2020-09-01|Giridih|ctrl1,10954,2020-09-01,India,thunder_or_convective,10132,India,2.820556,4.448333,-1.627777,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10954|2020-09-01|Giridih,10954|2020-09-01|Giridih|ctrl2,10954,2020-09-01,India,thunder_or_convective,10080,India,2.820556,0.0,2.820556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10954|2020-09-01|Giridih,10954|2020-09-01|Giridih|ctrl3,10954,2020-09-01,India,thunder_or_convective,11432,India,2.820556,0.748889,2.071667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10954|2020-12-10|Giridih,10954|2020-12-10|Giridih|ctrl1,10954,2020-12-10,India,low_vis_1km,10132,India,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10954|2020-12-10|Giridih,10954|2020-12-10|Giridih|ctrl2,10954,2020-12-10,India,low_vis_1km,10080,India,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10954|2020-12-10|Giridih,10954|2020-12-10|Giridih|ctrl3,10954,2020-12-10,India,low_vis_1km,11432,India,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+7672|2020-12-27|Zigong,7672|2020-12-27|Zigong|ctrl1,7672,2020-12-27,China,fog,10851,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+7672|2020-12-27|Zigong,7672|2020-12-27|Zigong|ctrl2,7672,2020-12-27,China,fog,9653,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+7672|2020-12-27|Zigong,7672|2020-12-27|Zigong|ctrl3,7672,2020-12-27,China,fog,7775,China,0.0,0.057778,-0.057778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+7672|2020-12-26|Zigong,7672|2020-12-26|Zigong|ctrl1,7672,2020-12-26,China,fog,10851,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+7672|2020-12-26|Zigong,7672|2020-12-26|Zigong|ctrl2,7672,2020-12-26,China,fog,9653,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+7672|2020-12-26|Zigong,7672|2020-12-26|Zigong|ctrl3,7672,2020-12-26,China,fog,7775,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10936|2020-09-01|Phusro,10936|2020-09-01|Phusro|ctrl1,10936,2020-09-01,India,thunder_or_convective,9446,India,2.41,0.0,2.41,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10936|2020-09-01|Phusro,10936|2020-09-01|Phusro|ctrl2,10936,2020-09-01,India,thunder_or_convective,11394,India,2.41,1.220556,1.189444,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10936|2020-09-01|Phusro,10936|2020-09-01|Phusro|ctrl3,10936,2020-09-01,India,thunder_or_convective,10228,India,2.41,0.402222,2.007778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10936|2020-12-10|Phusro,10936|2020-12-10|Phusro|ctrl1,10936,2020-12-10,India,low_vis_1km,9446,India,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10936|2020-12-10|Phusro,10936|2020-12-10|Phusro|ctrl2,10936,2020-12-10,India,low_vis_1km,11394,India,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10936|2020-12-10|Phusro,10936|2020-12-10|Phusro|ctrl3,10936,2020-12-10,India,low_vis_1km,10228,India,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2020-01-19|Rzeszów,4263|2020-01-19|Rzeszów|ctrl1,4263,2020-01-19,Poland,fog,3850,Poland,0.0,0.0,0.0,4225.0,2020-11-09,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4263|2020-01-19|Rzeszów,4263|2020-01-19|Rzeszów|ctrl2,4263,2020-01-19,Poland,fog,3403,Poland,0.0,0.0,0.0,4225.0,2020-11-09,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4263|2020-01-19|Rzeszów,4263|2020-01-19|Rzeszów|ctrl3,4263,2020-01-19,Poland,fog,3068,Poland,0.0,0.0,0.0,4225.0,2020-11-09,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4263|2020-11-09|Rzeszów,4263|2020-11-09|Rzeszów|ctrl1,4263,2020-11-09,Poland,fog,3850,Poland,0.0,0.0,0.0,4225.0,2020-01-19,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4263|2020-11-09|Rzeszów,4263|2020-11-09|Rzeszów|ctrl2,4263,2020-11-09,Poland,fog,3403,Poland,0.0,0.0,0.0,4225.0,2020-01-19,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4263|2020-11-09|Rzeszów,4263|2020-11-09|Rzeszów|ctrl3,4263,2020-11-09,Poland,fog,3068,Poland,0.0,0.0,0.0,4225.0,2020-01-19,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+3944|2020-01-29|Belgorod,3944|2020-01-29|Belgorod|ctrl1,3944,2020-01-29,Russia,low_vis_5km,6031,Russia,0.0,0.276667,-0.276667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2020-01-29|Belgorod,3944|2020-01-29|Belgorod|ctrl2,3944,2020-01-29,Russia,low_vis_5km,7378,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2020-01-29|Belgorod,3944|2020-01-29|Belgorod|ctrl3,3944,2020-01-29,Russia,low_vis_5km,6673,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2020-11-04|Belgorod,3944|2020-11-04|Belgorod|ctrl1,3944,2020-11-04,Russia,fog,6031,Russia,0.0,0.001667,-0.001667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2020-11-04|Belgorod,3944|2020-11-04|Belgorod|ctrl2,3944,2020-11-04,Russia,fog,7378,Russia,0.0,0.341667,-0.341667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2020-11-04|Belgorod,3944|2020-11-04|Belgorod|ctrl3,3944,2020-11-04,Russia,fog,6673,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2020-02-01|Nizhnekamsk,6403|2020-02-01|Nizhnekamsk|ctrl1,6403,2020-02-01,Russia,low_ceiling_300m,6031,Russia,0.0,0.016667,-0.016667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2020-02-01|Nizhnekamsk,6403|2020-02-01|Nizhnekamsk|ctrl2,6403,2020-02-01,Russia,low_ceiling_300m,6242,Russia,0.0,0.136667,-0.136667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2020-02-01|Nizhnekamsk,6403|2020-02-01|Nizhnekamsk|ctrl3,6403,2020-02-01,Russia,low_ceiling_300m,6673,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2020-01-21|Nizhnekamsk,6403|2020-01-21|Nizhnekamsk|ctrl1,6403,2020-01-21,Russia,low_ceiling_1000m,6031,Russia,0.0,0.27,-0.27,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2020-01-21|Nizhnekamsk,6403|2020-01-21|Nizhnekamsk|ctrl2,6403,2020-01-21,Russia,low_ceiling_1000m,6242,Russia,0.0,0.028333,-0.028333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2020-01-21|Nizhnekamsk,6403|2020-01-21|Nizhnekamsk|ctrl3,6403,2020-01-21,Russia,low_ceiling_1000m,6673,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10210|2020-01-03|Neyveli Township,10210|2020-01-03|Neyveli Township|ctrl1,10210,2020-01-03,India,low_vis_5km,10842,India,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10210|2020-01-03|Neyveli Township,10210|2020-01-03|Neyveli Township|ctrl2,10210,2020-01-03,India,low_vis_5km,11388,India,0.0,0.201111,-0.201111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10210|2020-01-03|Neyveli Township,10210|2020-01-03|Neyveli Township|ctrl3,10210,2020-01-03,India,low_vis_5km,9614,India,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10210|2020-11-25|Neyveli Township,10210|2020-11-25|Neyveli Township|ctrl1,10210,2020-11-25,India,low_vis_5km,10842,India,11.467222,0.048333,11.418889,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10210|2020-11-25|Neyveli Township,10210|2020-11-25|Neyveli Township|ctrl2,10210,2020-11-25,India,low_vis_5km,11388,India,11.467222,0.0,11.467222,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10210|2020-11-25|Neyveli Township,10210|2020-11-25|Neyveli Township|ctrl3,10210,2020-11-25,India,low_vis_5km,9614,India,11.467222,0.0,11.467222,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2020-02-09|Brest,56|2020-02-09|Brest|ctrl1,56,2020-02-09,France,strong_wind,1585,France,0.490556,0.085556,0.405,1031.0,2020-09-28,New Zealand,same_year_hazard_control_country,1.28,1.194444,-0.789444,ok
+56|2020-02-09|Brest,56|2020-02-09|Brest|ctrl2,56,2020-02-09,France,strong_wind,544,France,0.490556,0.0,0.490556,1031.0,2020-09-28,New Zealand,same_year_hazard_control_country,1.28,1.28,-0.789444,ok
+56|2020-02-09|Brest,56|2020-02-09|Brest|ctrl3,56,2020-02-09,France,strong_wind,944,France,0.490556,0.600556,-0.11,1031.0,2020-09-28,New Zealand,same_year_hazard_control_country,1.28,0.679444,-0.789444,ok
+56|2020-11-01|Brest,56|2020-11-01|Brest|ctrl1,56,2020-11-01,France,low_vis_5km,1585,France,0.063333,0.0,0.063333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2020-11-01|Brest,56|2020-11-01|Brest|ctrl2,56,2020-11-01,France,low_vis_5km,544,France,0.063333,0.031111,0.032222,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2020-11-01|Brest,56|2020-11-01|Brest|ctrl3,56,2020-11-01,France,low_vis_5km,944,France,0.063333,0.001667,0.061666,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+1031|2020-09-28|Hamilton,1031|2020-09-28|Hamilton|ctrl1,1031,2020-09-28,New Zealand,strong_wind,505,New Zealand,1.28,0.0,1.28,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+1031|2020-09-28|Hamilton,1031|2020-09-28|Hamilton|ctrl2,1031,2020-09-28,New Zealand,strong_wind,647,New Zealand,1.28,0.0,1.28,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+1031|2020-09-28|Hamilton,1031|2020-09-28|Hamilton|ctrl3,1031,2020-09-28,New Zealand,strong_wind,1681,France,1.28,0.0,1.28,56.0,2020-02-09,France,same_year_hazard_control_country,0.490556,0.490556,0.789444,ok
+1031|2020-09-18|Hamilton,1031|2020-09-18|Hamilton|ctrl1,1031,2020-09-18,New Zealand,strong_wind,505,New Zealand,0.196111,0.0,0.196111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+1031|2020-09-18|Hamilton,1031|2020-09-18|Hamilton|ctrl2,1031,2020-09-18,New Zealand,strong_wind,647,New Zealand,0.196111,0.0,0.196111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+1031|2020-09-18|Hamilton,1031|2020-09-18|Hamilton|ctrl3,1031,2020-09-18,New Zealand,strong_wind,1681,France,0.196111,0.0,0.196111,56.0,2020-02-09,France,same_year_hazard_control_country,0.490556,0.490556,-0.294445,ok
+4339|2020-01-19|Lublin,4339|2020-01-19|Lublin|ctrl1,4339,2020-01-19,Poland,low_ceiling_1000m,3850,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2020-01-19|Lublin,4339|2020-01-19|Lublin|ctrl2,4339,2020-01-19,Poland,low_ceiling_1000m,3068,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2020-01-19|Lublin,4339|2020-01-19|Lublin|ctrl3,4339,2020-01-19,Poland,low_ceiling_1000m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2020-12-17|Lublin,4339|2020-12-17|Lublin|ctrl1,4339,2020-12-17,Poland,low_ceiling_1000m,3850,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2020-12-17|Lublin,4339|2020-12-17|Lublin|ctrl2,4339,2020-12-17,Poland,low_ceiling_1000m,3068,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2020-12-17|Lublin,4339|2020-12-17|Lublin|ctrl3,4339,2020-12-17,Poland,low_ceiling_1000m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2020-12-05|Vinnytsia,2044|2020-12-05|Vinnytsia|ctrl1,2044,2020-12-05,Ukraine,fog,2506,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2020-12-05|Vinnytsia,2044|2020-12-05|Vinnytsia|ctrl2,2044,2020-12-05,Ukraine,fog,4030,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2020-12-05|Vinnytsia,2044|2020-12-05|Vinnytsia|ctrl3,2044,2020-12-05,Ukraine,fog,1089,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2020-11-18|Vinnytsia,2044|2020-11-18|Vinnytsia|ctrl1,2044,2020-11-18,Ukraine,low_ceiling_300m,2506,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2020-11-18|Vinnytsia,2044|2020-11-18|Vinnytsia|ctrl2,2044,2020-11-18,Ukraine,low_ceiling_300m,4030,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2020-11-18|Vinnytsia,2044|2020-11-18|Vinnytsia|ctrl3,2044,2020-11-18,Ukraine,low_ceiling_300m,1089,Ukraine,0.0,0.144444,-0.144444,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6023|2020-01-03|Ciudad Valles,6023|2020-01-03|Ciudad Valles|ctrl1,6023,2020-01-03,México,fog,5931,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6023|2020-01-03|Ciudad Valles,6023|2020-01-03|Ciudad Valles|ctrl2,6023,2020-01-03,México,fog,5730,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6023|2020-01-03|Ciudad Valles,6023|2020-01-03|Ciudad Valles|ctrl3,6023,2020-01-03,México,fog,913,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6023|2020-01-02|Ciudad Valles,6023|2020-01-02|Ciudad Valles|ctrl1,6023,2020-01-02,México,low_vis_5km,5931,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6023|2020-01-02|Ciudad Valles,6023|2020-01-02|Ciudad Valles|ctrl2,6023,2020-01-02,México,low_vis_5km,5730,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6023|2020-01-02|Ciudad Valles,6023|2020-01-02|Ciudad Valles|ctrl3,6023,2020-01-02,México,low_vis_5km,913,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2020-01-19|Stalowa Wola,4225|2020-01-19|Stalowa Wola|ctrl1,4225,2020-01-19,Poland,fog,3850,Poland,0.0,0.0,0.0,4263.0,2020-11-09,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4225|2020-01-19|Stalowa Wola,4225|2020-01-19|Stalowa Wola|ctrl2,4225,2020-01-19,Poland,fog,3403,Poland,0.0,0.0,0.0,4263.0,2020-11-09,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4225|2020-01-19|Stalowa Wola,4225|2020-01-19|Stalowa Wola|ctrl3,4225,2020-01-19,Poland,fog,1080,Poland,0.0,0.0,0.0,4263.0,2020-11-09,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4225|2020-11-09|Stalowa Wola,4225|2020-11-09|Stalowa Wola|ctrl1,4225,2020-11-09,Poland,fog,3850,Poland,0.0,0.0,0.0,4263.0,2020-01-19,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4225|2020-11-09|Stalowa Wola,4225|2020-11-09|Stalowa Wola|ctrl2,4225,2020-11-09,Poland,fog,3403,Poland,0.0,0.0,0.0,4263.0,2020-01-19,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4225|2020-11-09|Stalowa Wola,4225|2020-11-09|Stalowa Wola|ctrl3,4225,2020-11-09,Poland,fog,1080,Poland,0.0,0.0,0.0,4263.0,2020-01-19,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4942|2021-09-02|Celaya,4942|2021-09-02|Celaya|ctrl1,4942,2021-09-02,México,low_ceiling_1000m,6696,México,1.25,0.0,1.25,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2021-09-02|Celaya,4942|2021-09-02|Celaya|ctrl2,4942,2021-09-02,México,low_ceiling_1000m,4288,México,1.25,0.26,0.99,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2021-09-02|Celaya,4942|2021-09-02|Celaya|ctrl3,4942,2021-09-02,México,low_ceiling_1000m,4134,México,1.25,0.086111,1.163889,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2021-10-03|Celaya,4942|2021-10-03|Celaya|ctrl1,4942,2021-10-03,México,low_ceiling_1000m,6696,México,0.101111,0.0,0.101111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2021-10-03|Celaya,4942|2021-10-03|Celaya|ctrl2,4942,2021-10-03,México,low_ceiling_1000m,4288,México,0.101111,0.058333,0.042778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2021-10-03|Celaya,4942|2021-10-03|Celaya|ctrl3,4942,2021-10-03,México,low_ceiling_1000m,4134,México,0.101111,0.484444,-0.383333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2021-04-05|Karadeniz Ereğli,4379|2021-04-05|Karadeniz Ereğli|ctrl1,4379,2021-04-05,Turkey,thunder_or_convective,858,Turkey,0.449444,0.001111,0.448333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2021-04-05|Karadeniz Ereğli,4379|2021-04-05|Karadeniz Ereğli|ctrl2,4379,2021-04-05,Turkey,thunder_or_convective,3459,Turkey,0.449444,0.238889,0.210555,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2021-04-05|Karadeniz Ereğli,4379|2021-04-05|Karadeniz Ereğli|ctrl3,4379,2021-04-05,Turkey,thunder_or_convective,4341,Turkey,0.449444,1.481667,-1.032223,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2021-04-08|Karadeniz Ereğli,4379|2021-04-08|Karadeniz Ereğli|ctrl1,4379,2021-04-08,Turkey,low_ceiling_1000m,858,Turkey,1.235556,0.050556,1.185,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2021-04-08|Karadeniz Ereğli,4379|2021-04-08|Karadeniz Ereğli|ctrl2,4379,2021-04-08,Turkey,low_ceiling_1000m,3459,Turkey,1.235556,0.070556,1.165,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2021-04-08|Karadeniz Ereğli,4379|2021-04-08|Karadeniz Ereğli|ctrl3,4379,2021-04-08,Turkey,low_ceiling_1000m,4341,Turkey,1.235556,0.4,0.835556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10954|2021-05-07|Giridih,10954|2021-05-07|Giridih|ctrl1,10954,2021-05-07,India,low_vis_5km,10132,India,0.0,0.0,0.0,10936.0,2021-01-04,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10954|2021-05-07|Giridih,10954|2021-05-07|Giridih|ctrl2,10954,2021-05-07,India,low_vis_5km,11432,India,0.0,0.0,0.0,10936.0,2021-01-04,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10954|2021-05-07|Giridih,10954|2021-05-07|Giridih|ctrl3,10954,2021-05-07,India,low_vis_5km,10080,India,0.0,1.312222,-1.312222,10936.0,2021-01-04,India,same_year_hazard_control_country,0.0,-1.312222,0.0,ok
+10954|2021-01-04|Giridih,10954|2021-01-04|Giridih|ctrl1,10954,2021-01-04,India,low_vis_5km,10132,India,0.0,0.0,0.0,10936.0,2021-05-07,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10954|2021-01-04|Giridih,10954|2021-01-04|Giridih|ctrl2,10954,2021-01-04,India,low_vis_5km,11432,India,0.0,0.0,0.0,10936.0,2021-05-07,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10954|2021-01-04|Giridih,10954|2021-01-04|Giridih|ctrl3,10954,2021-01-04,India,low_vis_5km,10080,India,0.0,0.0,0.0,10936.0,2021-05-07,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+175|2021-07-28|Điện Biên Phủ,175|2021-07-28|Điện Biên Phủ|ctrl1,175,2021-07-28,Vietnam,thunder_or_convective,1739,Vietnam,0.003889,0.088333,-0.084444,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2021-07-28|Điện Biên Phủ,175|2021-07-28|Điện Biên Phủ|ctrl2,175,2021-07-28,Vietnam,thunder_or_convective,5031,Vietnam,0.003889,0.0,0.003889,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2021-07-28|Điện Biên Phủ,175|2021-07-28|Điện Biên Phủ|ctrl3,175,2021-07-28,Vietnam,thunder_or_convective,1915,Vietnam,0.003889,1.123889,-1.12,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2021-05-01|Điện Biên Phủ,175|2021-05-01|Điện Biên Phủ|ctrl1,175,2021-05-01,Vietnam,thunder_or_convective,1739,Vietnam,3.065556,0.124444,2.941112,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2021-05-01|Điện Biên Phủ,175|2021-05-01|Điện Biên Phủ|ctrl2,175,2021-05-01,Vietnam,thunder_or_convective,5031,Vietnam,3.065556,0.0,3.065556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2021-05-01|Điện Biên Phủ,175|2021-05-01|Điện Biên Phủ|ctrl3,175,2021-05-01,Vietnam,thunder_or_convective,1915,Vietnam,3.065556,0.003333,3.062223,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+7672|2021-12-10|Zigong,7672|2021-12-10|Zigong|ctrl1,7672,2021-12-10,China,low_vis_5km,10851,China,0.0,0.0,0.0,10433.0,2021-08-22,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+7672|2021-12-10|Zigong,7672|2021-12-10|Zigong|ctrl2,7672,2021-12-10,China,low_vis_5km,9653,China,0.0,0.0,0.0,10433.0,2021-08-22,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+7672|2021-12-10|Zigong,7672|2021-12-10|Zigong|ctrl3,7672,2021-12-10,China,low_vis_5km,11127,China,0.0,0.0,0.0,10433.0,2021-08-22,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+7672|2021-11-03|Zigong,7672|2021-11-03|Zigong|ctrl1,7672,2021-11-03,China,low_vis_5km,10851,China,0.0,0.0,0.0,10433.0,2021-08-22,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+7672|2021-11-03|Zigong,7672|2021-11-03|Zigong|ctrl2,7672,2021-11-03,China,low_vis_5km,9653,China,0.0,0.0,0.0,10433.0,2021-08-22,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+7672|2021-11-03|Zigong,7672|2021-11-03|Zigong|ctrl3,7672,2021-11-03,China,low_vis_5km,11127,China,0.0,0.0,0.0,10433.0,2021-08-22,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10936|2021-05-07|Phusro,10936|2021-05-07|Phusro|ctrl1,10936,2021-05-07,India,low_vis_5km,10422,India,0.0,0.261111,-0.261111,10954.0,2021-01-04,India,same_year_hazard_control_country,0.0,-0.261111,0.0,ok
+10936|2021-05-07|Phusro,10936|2021-05-07|Phusro|ctrl2,10936,2021-05-07,India,low_vis_5km,11394,India,0.0,0.0,0.0,10954.0,2021-01-04,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10936|2021-05-07|Phusro,10936|2021-05-07|Phusro|ctrl3,10936,2021-05-07,India,low_vis_5km,11264,India,0.0,0.283333,-0.283333,10954.0,2021-01-04,India,same_year_hazard_control_country,0.0,-0.283333,0.0,ok
+10936|2021-01-04|Phusro,10936|2021-01-04|Phusro|ctrl1,10936,2021-01-04,India,low_vis_5km,10422,India,0.0,0.0,0.0,10954.0,2021-05-07,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10936|2021-01-04|Phusro,10936|2021-01-04|Phusro|ctrl2,10936,2021-01-04,India,low_vis_5km,11394,India,0.0,0.0,0.0,10954.0,2021-05-07,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10936|2021-01-04|Phusro,10936|2021-01-04|Phusro|ctrl3,10936,2021-01-04,India,low_vis_5km,11264,India,0.0,0.0,0.0,10954.0,2021-05-07,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4263|2021-12-15|Rzeszów,4263|2021-12-15|Rzeszów|ctrl1,4263,2021-12-15,Poland,low_ceiling_300m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2021-12-15|Rzeszów,4263|2021-12-15|Rzeszów|ctrl2,4263,2021-12-15,Poland,low_ceiling_300m,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2021-12-15|Rzeszów,4263|2021-12-15|Rzeszów|ctrl3,4263,2021-12-15,Poland,low_ceiling_300m,4107,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2021-11-17|Rzeszów,4263|2021-11-17|Rzeszów|ctrl1,4263,2021-11-17,Poland,fog,3403,Poland,0.005556,0.0,0.005556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2021-11-17|Rzeszów,4263|2021-11-17|Rzeszów|ctrl2,4263,2021-11-17,Poland,fog,1080,Poland,0.005556,0.051667,-0.046111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2021-11-17|Rzeszów,4263|2021-11-17|Rzeszów|ctrl3,4263,2021-11-17,Poland,fog,4107,Poland,0.005556,0.0,0.005556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2021-01-23|Belgorod,3944|2021-01-23|Belgorod|ctrl1,3944,2021-01-23,Russia,low_vis_5km,6031,Russia,0.0,0.227778,-0.227778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2021-01-23|Belgorod,3944|2021-01-23|Belgorod|ctrl2,3944,2021-01-23,Russia,low_vis_5km,7378,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2021-01-23|Belgorod,3944|2021-01-23|Belgorod|ctrl3,3944,2021-01-23,Russia,low_vis_5km,6673,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2021-02-25|Belgorod,3944|2021-02-25|Belgorod|ctrl1,3944,2021-02-25,Russia,low_vis_5km,6031,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2021-02-25|Belgorod,3944|2021-02-25|Belgorod|ctrl2,3944,2021-02-25,Russia,low_vis_5km,7378,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2021-02-25|Belgorod,3944|2021-02-25|Belgorod|ctrl3,3944,2021-02-25,Russia,low_vis_5km,6673,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2021-12-29|Brest,56|2021-12-29|Brest|ctrl1,56,2021-12-29,France,fog,544,France,0.0,0.067778,-0.067778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2021-12-29|Brest,56|2021-12-29|Brest|ctrl2,56,2021-12-29,France,fog,1681,France,0.0,0.405,-0.405,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2021-12-29|Brest,56|2021-12-29|Brest|ctrl3,56,2021-12-29,France,fog,2940,France,0.0,0.606111,-0.606111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2021-12-03|Brest,56|2021-12-03|Brest|ctrl1,56,2021-12-03,France,low_ceiling_1000m,544,France,1.181111,0.491111,0.69,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2021-12-03|Brest,56|2021-12-03|Brest|ctrl2,56,2021-12-03,France,low_ceiling_1000m,1681,France,1.181111,0.096667,1.084444,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2021-12-03|Brest,56|2021-12-03|Brest|ctrl3,56,2021-12-03,France,low_ceiling_1000m,2940,France,1.181111,0.0,1.181111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2021-01-24|Nizhnekamsk,6403|2021-01-24|Nizhnekamsk|ctrl1,6403,2021-01-24,Russia,low_ceiling_1000m,6031,Russia,0.0,0.037778,-0.037778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2021-01-24|Nizhnekamsk,6403|2021-01-24|Nizhnekamsk|ctrl2,6403,2021-01-24,Russia,low_ceiling_1000m,6242,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2021-01-24|Nizhnekamsk,6403|2021-01-24|Nizhnekamsk|ctrl3,6403,2021-01-24,Russia,low_ceiling_1000m,6191,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2021-04-09|Nizhnekamsk,6403|2021-04-09|Nizhnekamsk|ctrl1,6403,2021-04-09,Russia,low_ceiling_1000m,6031,Russia,1.043889,1.311111,-0.267222,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2021-04-09|Nizhnekamsk,6403|2021-04-09|Nizhnekamsk|ctrl2,6403,2021-04-09,Russia,low_ceiling_1000m,6242,Russia,1.043889,2.445556,-1.401667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2021-04-09|Nizhnekamsk,6403|2021-04-09|Nizhnekamsk|ctrl3,6403,2021-04-09,Russia,low_ceiling_1000m,6191,Russia,1.043889,0.0,1.043889,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10840|2021-01-29|Rourkela,10840|2021-01-29|Rourkela|ctrl1,10840,2021-01-29,India,low_vis_5km,10132,India,0.0,0.005556,-0.005556,10936.0,2021-01-04,India,same_year_hazard_control_country,0.0,-0.005556,0.0,ok
+10840|2021-01-29|Rourkela,10840|2021-01-29|Rourkela|ctrl2,10840,2021-01-29,India,low_vis_5km,10006,India,0.0,0.0,0.0,10936.0,2021-01-04,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10840|2021-01-29|Rourkela,10840|2021-01-29|Rourkela|ctrl3,10840,2021-01-29,India,low_vis_5km,6662,India,0.0,0.0,0.0,10936.0,2021-01-04,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10840|2021-06-12|Rourkela,10840|2021-06-12|Rourkela|ctrl1,10840,2021-06-12,India,low_vis_5km,10132,India,3.944444,0.558889,3.385555,10936.0,2021-01-04,India,same_year_hazard_control_country,0.0,-0.558889,3.944444,ok
+10840|2021-06-12|Rourkela,10840|2021-06-12|Rourkela|ctrl2,10840,2021-06-12,India,low_vis_5km,10006,India,3.944444,0.008333,3.936111,10936.0,2021-01-04,India,same_year_hazard_control_country,0.0,-0.008333,3.944444,ok
+10840|2021-06-12|Rourkela,10840|2021-06-12|Rourkela|ctrl3,10840,2021-06-12,India,low_vis_5km,6662,India,3.944444,0.0,3.944444,10936.0,2021-01-04,India,same_year_hazard_control_country,0.0,0.0,3.944444,ok
+4339|2021-12-15|Lublin,4339|2021-12-15|Lublin|ctrl1,4339,2021-12-15,Poland,low_vis_5km,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2021-12-15|Lublin,4339|2021-12-15|Lublin|ctrl2,4339,2021-12-15,Poland,low_vis_5km,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2021-12-15|Lublin,4339|2021-12-15|Lublin|ctrl3,4339,2021-12-15,Poland,low_vis_5km,4107,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2021-11-17|Lublin,4339|2021-11-17|Lublin|ctrl1,4339,2021-11-17,Poland,fog,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2021-11-17|Lublin,4339|2021-11-17|Lublin|ctrl2,4339,2021-11-17,Poland,fog,1080,Poland,0.0,0.051667,-0.051667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2021-11-17|Lublin,4339|2021-11-17|Lublin|ctrl3,4339,2021-11-17,Poland,fog,4107,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2021-12-06|Vinnytsia,2044|2021-12-06|Vinnytsia|ctrl1,2044,2021-12-06,Ukraine,low_vis_1km,2506,Ukraine,0.0,0.075,-0.075,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2021-12-06|Vinnytsia,2044|2021-12-06|Vinnytsia|ctrl2,2044,2021-12-06,Ukraine,low_vis_1km,4030,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2021-12-06|Vinnytsia,2044|2021-12-06|Vinnytsia|ctrl3,2044,2021-12-06,Ukraine,low_vis_1km,1089,Ukraine,0.0,0.334444,-0.334444,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2021-12-09|Vinnytsia,2044|2021-12-09|Vinnytsia|ctrl1,2044,2021-12-09,Ukraine,low_ceiling_300m,2506,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2021-12-09|Vinnytsia,2044|2021-12-09|Vinnytsia|ctrl2,2044,2021-12-09,Ukraine,low_ceiling_300m,4030,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2021-12-09|Vinnytsia,2044|2021-12-09|Vinnytsia|ctrl3,2044,2021-12-09,Ukraine,low_ceiling_300m,1089,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2021-12-02|Ensenada,357|2021-12-02|Ensenada|ctrl1,357,2021-12-02,México,fog,5,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2021-12-02|Ensenada,357|2021-12-02|Ensenada|ctrl2,357,2021-12-02,México,fog,913,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2021-12-02|Ensenada,357|2021-12-02|Ensenada|ctrl3,357,2021-12-02,México,fog,6251,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2021-11-04|Ensenada,357|2021-11-04|Ensenada|ctrl1,357,2021-11-04,México,fog,5,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2021-11-04|Ensenada,357|2021-11-04|Ensenada|ctrl2,357,2021-11-04,México,fog,913,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2021-11-04|Ensenada,357|2021-11-04|Ensenada|ctrl3,357,2021-11-04,México,fog,6251,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2021-12-15|Stalowa Wola,4225|2021-12-15|Stalowa Wola|ctrl1,4225,2021-12-15,Poland,low_ceiling_300m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2021-12-15|Stalowa Wola,4225|2021-12-15|Stalowa Wola|ctrl2,4225,2021-12-15,Poland,low_ceiling_300m,3349,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2021-12-15|Stalowa Wola,4225|2021-12-15|Stalowa Wola|ctrl3,4225,2021-12-15,Poland,low_ceiling_300m,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2021-11-17|Stalowa Wola,4225|2021-11-17|Stalowa Wola|ctrl1,4225,2021-11-17,Poland,fog,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2021-11-17|Stalowa Wola,4225|2021-11-17|Stalowa Wola|ctrl2,4225,2021-11-17,Poland,fog,3349,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2021-11-17|Stalowa Wola,4225|2021-11-17|Stalowa Wola|ctrl3,4225,2021-11-17,Poland,fog,1080,Poland,0.0,0.051667,-0.051667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2022-12-26|Celaya,4942|2022-12-26|Celaya|ctrl1,4942,2022-12-26,México,low_ceiling_1000m,6696,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2022-12-26|Celaya,4942|2022-12-26|Celaya|ctrl2,4942,2022-12-26,México,low_ceiling_1000m,4288,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2022-12-26|Celaya,4942|2022-12-26|Celaya|ctrl3,4942,2022-12-26,México,low_ceiling_1000m,4134,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2022-08-22|Celaya,4942|2022-08-22|Celaya|ctrl1,4942,2022-08-22,México,low_ceiling_1000m,6696,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2022-08-22|Celaya,4942|2022-08-22|Celaya|ctrl2,4942,2022-08-22,México,low_ceiling_1000m,4288,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2022-08-22|Celaya,4942|2022-08-22|Celaya|ctrl3,4942,2022-08-22,México,low_ceiling_1000m,4134,México,0.0,0.598333,-0.598333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2022-03-19|Karadeniz Ereğli,4379|2022-03-19|Karadeniz Ereğli|ctrl1,4379,2022-03-19,Turkey,low_ceiling_1000m,3459,Turkey,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2022-03-19|Karadeniz Ereğli,4379|2022-03-19|Karadeniz Ereğli|ctrl2,4379,2022-03-19,Turkey,low_ceiling_1000m,858,Turkey,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2022-03-19|Karadeniz Ereğli,4379|2022-03-19|Karadeniz Ereğli|ctrl3,4379,2022-03-19,Turkey,low_ceiling_1000m,4341,Turkey,0.0,0.929444,-0.929444,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2022-06-27|Karadeniz Ereğli,4379|2022-06-27|Karadeniz Ereğli|ctrl1,4379,2022-06-27,Turkey,thunder_or_convective,3459,Turkey,7.12,0.0,7.12,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2022-06-27|Karadeniz Ereğli,4379|2022-06-27|Karadeniz Ereğli|ctrl2,4379,2022-06-27,Turkey,thunder_or_convective,858,Turkey,7.12,0.051111,7.068889,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2022-06-27|Karadeniz Ereğli,4379|2022-06-27|Karadeniz Ereğli|ctrl3,4379,2022-06-27,Turkey,thunder_or_convective,4341,Turkey,7.12,3.846667,3.273333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2022-09-14|Điện Biên Phủ,175|2022-09-14|Điện Biên Phủ|ctrl1,175,2022-09-14,Vietnam,fog,1739,Vietnam,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2022-09-14|Điện Biên Phủ,175|2022-09-14|Điện Biên Phủ|ctrl2,175,2022-09-14,Vietnam,fog,5031,Vietnam,0.0,0.151667,-0.151667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2022-09-14|Điện Biên Phủ,175|2022-09-14|Điện Biên Phủ|ctrl3,175,2022-09-14,Vietnam,fog,3097,Vietnam,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2022-05-20|Điện Biên Phủ,175|2022-05-20|Điện Biên Phủ|ctrl1,175,2022-05-20,Vietnam,thunder_or_convective,1739,Vietnam,2.977222,0.0,2.977222,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2022-05-20|Điện Biên Phủ,175|2022-05-20|Điện Biên Phủ|ctrl2,175,2022-05-20,Vietnam,thunder_or_convective,5031,Vietnam,2.977222,0.196111,2.781111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2022-05-20|Điện Biên Phủ,175|2022-05-20|Điện Biên Phủ|ctrl3,175,2022-05-20,Vietnam,thunder_or_convective,3097,Vietnam,2.977222,0.0,2.977222,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10954|2022-01-10|Giridih,10954|2022-01-10|Giridih|ctrl1,10954,2022-01-10,India,low_vis_5km,10132,India,0.0,0.0,0.0,10936.0,2022-01-11,India,same_year_hazard_control_country,1.946111,1.946111,-1.946111,ok
+10954|2022-01-10|Giridih,10954|2022-01-10|Giridih|ctrl2,10954,2022-01-10,India,low_vis_5km,10080,India,0.0,0.033333,-0.033333,10936.0,2022-01-11,India,same_year_hazard_control_country,1.946111,1.912778,-1.946111,ok
+10954|2022-01-10|Giridih,10954|2022-01-10|Giridih|ctrl3,10954,2022-01-10,India,low_vis_5km,11432,India,0.0,0.0,0.0,10936.0,2022-01-11,India,same_year_hazard_control_country,1.946111,1.946111,-1.946111,ok
+10954|2022-01-11|Giridih,10954|2022-01-11|Giridih|ctrl1,10954,2022-01-11,India,low_vis_5km,10132,India,3.687222,0.0,3.687222,10936.0,2022-01-10,India,same_year_hazard_control_country,0.0,0.0,3.687222,ok
+10954|2022-01-11|Giridih,10954|2022-01-11|Giridih|ctrl2,10954,2022-01-11,India,low_vis_5km,10080,India,3.687222,0.0,3.687222,10936.0,2022-01-10,India,same_year_hazard_control_country,0.0,0.0,3.687222,ok
+10954|2022-01-11|Giridih,10954|2022-01-11|Giridih|ctrl3,10954,2022-01-11,India,low_vis_5km,11432,India,3.687222,0.016111,3.671111,10936.0,2022-01-10,India,same_year_hazard_control_country,0.0,-0.016111,3.687222,ok
+7672|2022-01-08|Zigong,7672|2022-01-08|Zigong|ctrl1,7672,2022-01-08,China,fog,10851,China,0.036667,0.0,0.036667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+7672|2022-01-08|Zigong,7672|2022-01-08|Zigong|ctrl2,7672,2022-01-08,China,fog,9653,China,0.036667,0.0,0.036667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+7672|2022-01-08|Zigong,7672|2022-01-08|Zigong|ctrl3,7672,2022-01-08,China,fog,7775,China,0.036667,0.083333,-0.046666,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+7672|2022-01-07|Zigong,7672|2022-01-07|Zigong|ctrl1,7672,2022-01-07,China,fog,10851,China,0.0,0.0,0.0,10433.0,2022-01-08,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+7672|2022-01-07|Zigong,7672|2022-01-07|Zigong|ctrl2,7672,2022-01-07,China,fog,9653,China,0.0,0.0,0.0,10433.0,2022-01-08,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+7672|2022-01-07|Zigong,7672|2022-01-07|Zigong|ctrl3,7672,2022-01-07,China,fog,7775,China,0.0,0.0,0.0,10433.0,2022-01-08,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+3150|2022-02-27|Jiayuguan,3150|2022-02-27|Jiayuguan|ctrl1,3150,2022-02-27,China,gust_15ms,2595,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3150|2022-02-27|Jiayuguan,3150|2022-02-27|Jiayuguan|ctrl2,3150,2022-02-27,China,gust_15ms,1544,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3150|2022-02-27|Jiayuguan,3150|2022-02-27|Jiayuguan|ctrl3,3150,2022-02-27,China,gust_15ms,9035,China,0.0,0.008333,-0.008333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3150|2022-04-08|Jiayuguan,3150|2022-04-08|Jiayuguan|ctrl1,3150,2022-04-08,China,gust_15ms,2595,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3150|2022-04-08|Jiayuguan,3150|2022-04-08|Jiayuguan|ctrl2,3150,2022-04-08,China,gust_15ms,1544,China,0.0,0.237778,-0.237778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3150|2022-04-08|Jiayuguan,3150|2022-04-08|Jiayuguan|ctrl3,3150,2022-04-08,China,gust_15ms,9035,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10936|2022-01-10|Phusro,10936|2022-01-10|Phusro|ctrl1,10936,2022-01-10,India,low_vis_5km,10422,India,0.0,0.0,0.0,10954.0,2022-01-11,India,same_year_hazard_control_country,3.687222,3.687222,-3.687222,ok
+10936|2022-01-10|Phusro,10936|2022-01-10|Phusro|ctrl2,10936,2022-01-10,India,low_vis_5km,7703,India,0.0,0.0,0.0,10954.0,2022-01-11,India,same_year_hazard_control_country,3.687222,3.687222,-3.687222,ok
+10936|2022-01-10|Phusro,10936|2022-01-10|Phusro|ctrl3,10936,2022-01-10,India,low_vis_5km,7510,India,0.0,0.0,0.0,10954.0,2022-01-11,India,same_year_hazard_control_country,3.687222,3.687222,-3.687222,ok
+10936|2022-01-11|Phusro,10936|2022-01-11|Phusro|ctrl1,10936,2022-01-11,India,low_vis_5km,10422,India,1.946111,0.512222,1.433889,10954.0,2022-01-10,India,same_year_hazard_control_country,0.0,-0.512222,1.946111,ok
+10936|2022-01-11|Phusro,10936|2022-01-11|Phusro|ctrl2,10936,2022-01-11,India,low_vis_5km,7703,India,1.946111,0.0,1.946111,10954.0,2022-01-10,India,same_year_hazard_control_country,0.0,0.0,1.946111,ok
+10936|2022-01-11|Phusro,10936|2022-01-11|Phusro|ctrl3,10936,2022-01-11,India,low_vis_5km,7510,India,1.946111,0.560556,1.385555,10210.0,2022-11-11,India,same_year_hazard_control_country,12.109444,11.548888,-10.163333,ok
+4263|2022-11-21|Rzeszów,4263|2022-11-21|Rzeszów|ctrl1,4263,2022-11-21,Poland,fog,3403,Poland,0.0,0.0,0.0,4339.0,2022-11-22,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4263|2022-11-21|Rzeszów,4263|2022-11-21|Rzeszów|ctrl2,4263,2022-11-21,Poland,fog,3939,Poland,0.0,0.0,0.0,4339.0,2022-11-22,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4263|2022-11-21|Rzeszów,4263|2022-11-21|Rzeszów|ctrl3,4263,2022-11-21,Poland,fog,1080,Poland,0.0,0.0,0.0,4339.0,2022-11-22,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4263|2022-11-25|Rzeszów,4263|2022-11-25|Rzeszów|ctrl1,4263,2022-11-25,Poland,low_ceiling_1000m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2022-11-25|Rzeszów,4263|2022-11-25|Rzeszów|ctrl2,4263,2022-11-25,Poland,low_ceiling_1000m,3939,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2022-11-25|Rzeszów,4263|2022-11-25|Rzeszów|ctrl3,4263,2022-11-25,Poland,low_ceiling_1000m,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2022-02-28|Nizhnekamsk,6403|2022-02-28|Nizhnekamsk|ctrl1,6403,2022-02-28,Russia,fog,6031,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2022-02-28|Nizhnekamsk,6403|2022-02-28|Nizhnekamsk|ctrl2,6403,2022-02-28,Russia,fog,6242,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2022-02-28|Nizhnekamsk,6403|2022-02-28|Nizhnekamsk|ctrl3,6403,2022-02-28,Russia,fog,6191,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2022-04-18|Nizhnekamsk,6403|2022-04-18|Nizhnekamsk|ctrl1,6403,2022-04-18,Russia,low_ceiling_300m,6031,Russia,0.0,0.047778,-0.047778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2022-04-18|Nizhnekamsk,6403|2022-04-18|Nizhnekamsk|ctrl2,6403,2022-04-18,Russia,low_ceiling_300m,6242,Russia,0.0,0.013333,-0.013333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2022-04-18|Nizhnekamsk,6403|2022-04-18|Nizhnekamsk|ctrl3,6403,2022-04-18,Russia,low_ceiling_300m,6191,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10210|2022-11-11|Neyveli Township,10210|2022-11-11|Neyveli Township|ctrl1,10210,2022-11-11,India,low_vis_5km,7349,India,12.109444,0.0,12.109444,10936.0,2022-01-11,India,same_year_hazard_control_country,1.946111,1.946111,10.163333,ok
+10210|2022-11-11|Neyveli Township,10210|2022-11-11|Neyveli Township|ctrl2,10210,2022-11-11,India,low_vis_5km,10314,India,12.109444,0.564444,11.545,10936.0,2022-01-11,India,same_year_hazard_control_country,1.946111,1.381667,10.163333,ok
+10210|2022-11-11|Neyveli Township,10210|2022-11-11|Neyveli Township|ctrl3,10210,2022-11-11,India,low_vis_5km,11388,India,12.109444,0.0,12.109444,10936.0,2022-01-11,India,same_year_hazard_control_country,1.946111,1.946111,10.163333,ok
+10210|2022-09-28|Neyveli Township,10210|2022-09-28|Neyveli Township|ctrl1,10210,2022-09-28,India,low_vis_5km,7349,India,0.0,0.0,0.0,10936.0,2022-01-11,India,same_year_hazard_control_country,1.946111,1.946111,-1.946111,ok
+10210|2022-09-28|Neyveli Township,10210|2022-09-28|Neyveli Township|ctrl2,10210,2022-09-28,India,low_vis_5km,10314,India,0.0,0.155556,-0.155556,10936.0,2022-01-11,India,same_year_hazard_control_country,1.946111,1.790555,-1.946111,ok
+10210|2022-09-28|Neyveli Township,10210|2022-09-28|Neyveli Township|ctrl3,10210,2022-09-28,India,low_vis_5km,11388,India,0.0,1.305556,-1.305556,10936.0,2022-01-11,India,same_year_hazard_control_country,1.946111,0.640555,-1.946111,ok
+56|2022-02-16|Brest,56|2022-02-16|Brest|ctrl1,56,2022-02-16,France,low_vis_5km,1585,France,0.000556,0.050556,-0.05,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2022-02-16|Brest,56|2022-02-16|Brest|ctrl2,56,2022-02-16,France,low_vis_5km,544,France,0.000556,0.0,0.000556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2022-02-16|Brest,56|2022-02-16|Brest|ctrl3,56,2022-02-16,France,low_vis_5km,1681,France,0.000556,0.0,0.000556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2022-01-24|Brest,56|2022-01-24|Brest|ctrl1,56,2022-01-24,France,fog,1585,France,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2022-01-24|Brest,56|2022-01-24|Brest|ctrl2,56,2022-01-24,France,fog,544,France,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2022-01-24|Brest,56|2022-01-24|Brest|ctrl3,56,2022-01-24,France,fog,1681,France,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2022-11-22|Lublin,4339|2022-11-22|Lublin|ctrl1,4339,2022-11-22,Poland,fog,3403,Poland,0.0,0.0,0.0,4263.0,2022-11-21,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4339|2022-11-22|Lublin,4339|2022-11-22|Lublin|ctrl2,4339,2022-11-22,Poland,fog,1080,Poland,0.0,0.0,0.0,4263.0,2022-11-21,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4339|2022-11-22|Lublin,4339|2022-11-22|Lublin|ctrl3,4339,2022-11-22,Poland,fog,3939,Poland,0.0,0.0,0.0,4263.0,2022-11-21,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4339|2022-11-26|Lublin,4339|2022-11-26|Lublin|ctrl1,4339,2022-11-26,Poland,low_vis_5km,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2022-11-26|Lublin,4339|2022-11-26|Lublin|ctrl2,4339,2022-11-26,Poland,low_vis_5km,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2022-11-26|Lublin,4339|2022-11-26|Lublin|ctrl3,4339,2022-11-26,Poland,low_vis_5km,3939,Poland,0.0,0.037778,-0.037778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2022-01-09|Vinnytsia,2044|2022-01-09|Vinnytsia|ctrl1,2044,2022-01-09,Ukraine,low_ceiling_1000m,4030,Ukraine,0.562778,0.0,0.562778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2022-01-09|Vinnytsia,2044|2022-01-09|Vinnytsia|ctrl2,2044,2022-01-09,Ukraine,low_ceiling_1000m,2506,Ukraine,0.562778,0.0,0.562778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2022-01-09|Vinnytsia,2044|2022-01-09|Vinnytsia|ctrl3,2044,2022-01-09,Ukraine,low_ceiling_1000m,1089,Ukraine,0.562778,0.0,0.562778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2022-01-23|Vinnytsia,2044|2022-01-23|Vinnytsia|ctrl1,2044,2022-01-23,Ukraine,low_ceiling_1000m,4030,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2022-01-23|Vinnytsia,2044|2022-01-23|Vinnytsia|ctrl2,2044,2022-01-23,Ukraine,low_ceiling_1000m,2506,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2044|2022-01-23|Vinnytsia,2044|2022-01-23|Vinnytsia|ctrl3,2044,2022-01-23,Ukraine,low_ceiling_1000m,1089,Ukraine,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2022-01-07|Ensenada,357|2022-01-07|Ensenada|ctrl1,357,2022-01-07,México,fog,5,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2022-01-07|Ensenada,357|2022-01-07|Ensenada|ctrl2,357,2022-01-07,México,fog,5772,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2022-01-07|Ensenada,357|2022-01-07|Ensenada|ctrl3,357,2022-01-07,México,fog,913,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2022-02-20|Ensenada,357|2022-02-20|Ensenada|ctrl1,357,2022-02-20,México,low_vis_5km,5,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2022-02-20|Ensenada,357|2022-02-20|Ensenada|ctrl2,357,2022-02-20,México,low_vis_5km,5772,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2022-02-20|Ensenada,357|2022-02-20|Ensenada|ctrl3,357,2022-02-20,México,low_vis_5km,913,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2022-11-21|Stalowa Wola,4225|2022-11-21|Stalowa Wola|ctrl1,4225,2022-11-21,Poland,fog,3403,Poland,0.0,0.0,0.0,4339.0,2022-11-22,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4225|2022-11-21|Stalowa Wola,4225|2022-11-21|Stalowa Wola|ctrl2,4225,2022-11-21,Poland,fog,3349,Poland,0.0,0.0,0.0,4339.0,2022-11-22,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4225|2022-11-21|Stalowa Wola,4225|2022-11-21|Stalowa Wola|ctrl3,4225,2022-11-21,Poland,fog,1080,Poland,0.0,0.0,0.0,4339.0,2022-11-22,Poland,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4225|2022-11-25|Stalowa Wola,4225|2022-11-25|Stalowa Wola|ctrl1,4225,2022-11-25,Poland,low_ceiling_1000m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2022-11-25|Stalowa Wola,4225|2022-11-25|Stalowa Wola|ctrl2,4225,2022-11-25,Poland,low_ceiling_1000m,3349,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2022-11-25|Stalowa Wola,4225|2022-11-25|Stalowa Wola|ctrl3,4225,2022-11-25,Poland,low_ceiling_1000m,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2023-12-08|Celaya,4942|2023-12-08|Celaya|ctrl1,4942,2023-12-08,México,low_ceiling_1000m,6696,México,0.0,0.0,0.0,6023.0,2023-11-27,México,same_year_hazard_control_country,0.053333,0.053333,-0.053333,ok
+4942|2023-12-08|Celaya,4942|2023-12-08|Celaya|ctrl2,4942,2023-12-08,México,low_ceiling_1000m,4288,México,0.0,0.0,0.0,6023.0,2023-11-27,México,same_year_hazard_control_country,0.053333,0.053333,-0.053333,ok
+4942|2023-12-08|Celaya,4942|2023-12-08|Celaya|ctrl3,4942,2023-12-08,México,low_ceiling_1000m,4212,México,0.0,0.0,0.0,6023.0,2023-11-27,México,same_year_hazard_control_country,0.053333,0.053333,-0.053333,ok
+4942|2023-12-12|Celaya,4942|2023-12-12|Celaya|ctrl1,4942,2023-12-12,México,low_ceiling_1000m,6696,México,0.0,0.0,0.0,6023.0,2023-11-27,México,same_year_hazard_control_country,0.053333,0.053333,-0.053333,ok
+4942|2023-12-12|Celaya,4942|2023-12-12|Celaya|ctrl2,4942,2023-12-12,México,low_ceiling_1000m,4288,México,0.0,0.003333,-0.003333,6023.0,2023-11-27,México,same_year_hazard_control_country,0.053333,0.05,-0.053333,ok
+4942|2023-12-12|Celaya,4942|2023-12-12|Celaya|ctrl3,4942,2023-12-12,México,low_ceiling_1000m,4212,México,0.0,0.0,0.0,6023.0,2023-11-27,México,same_year_hazard_control_country,0.053333,0.053333,-0.053333,ok
+4379|2023-07-09|Karadeniz Ereğli,4379|2023-07-09|Karadeniz Ereğli|ctrl1,4379,2023-07-09,Turkey,thunder_or_convective,858,Turkey,2.066111,0.0,2.066111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2023-07-09|Karadeniz Ereğli,4379|2023-07-09|Karadeniz Ereğli|ctrl2,4379,2023-07-09,Turkey,thunder_or_convective,3459,Turkey,2.066111,0.982778,1.083333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2023-07-09|Karadeniz Ereğli,4379|2023-07-09|Karadeniz Ereğli|ctrl3,4379,2023-07-09,Turkey,thunder_or_convective,5938,Turkey,2.066111,0.0,2.066111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2023-04-27|Karadeniz Ereğli,4379|2023-04-27|Karadeniz Ereğli|ctrl1,4379,2023-04-27,Turkey,thunder_or_convective,858,Turkey,1.011111,1.423333,-0.412222,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2023-04-27|Karadeniz Ereğli,4379|2023-04-27|Karadeniz Ereğli|ctrl2,4379,2023-04-27,Turkey,thunder_or_convective,3459,Turkey,1.011111,3.523333,-2.512222,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2023-04-27|Karadeniz Ereğli,4379|2023-04-27|Karadeniz Ereğli|ctrl3,4379,2023-04-27,Turkey,thunder_or_convective,5938,Turkey,1.011111,0.666111,0.345,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10954|2023-01-02|Giridih,10954|2023-01-02|Giridih|ctrl1,10954,2023-01-02,India,low_vis_5km,10080,India,0.0,0.0,0.0,10936.0,2023-01-17,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10954|2023-01-02|Giridih,10954|2023-01-02|Giridih|ctrl2,10954,2023-01-02,India,low_vis_5km,11398,India,0.0,0.0,0.0,10936.0,2023-01-17,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10954|2023-01-02|Giridih,10954|2023-01-02|Giridih|ctrl3,10954,2023-01-02,India,low_vis_5km,10060,India,0.0,0.0,0.0,10936.0,2023-01-17,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10954|2023-01-17|Giridih,10954|2023-01-17|Giridih|ctrl1,10954,2023-01-17,India,low_vis_5km,10080,India,0.0,0.0,0.0,10936.0,2023-01-02,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10954|2023-01-17|Giridih,10954|2023-01-17|Giridih|ctrl2,10954,2023-01-17,India,low_vis_5km,11398,India,0.0,0.0,0.0,10936.0,2023-01-02,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10954|2023-01-17|Giridih,10954|2023-01-17|Giridih|ctrl3,10954,2023-01-17,India,low_vis_5km,10060,India,0.0,0.0,0.0,10936.0,2023-01-02,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+175|2023-09-12|Điện Biên Phủ,175|2023-09-12|Điện Biên Phủ|ctrl1,175,2023-09-12,Vietnam,thunder_or_convective,1739,Vietnam,0.0,0.048889,-0.048889,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2023-09-12|Điện Biên Phủ,175|2023-09-12|Điện Biên Phủ|ctrl2,175,2023-09-12,Vietnam,thunder_or_convective,3097,Vietnam,0.0,2.579444,-2.579444,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2023-09-12|Điện Biên Phủ,175|2023-09-12|Điện Biên Phủ|ctrl3,175,2023-09-12,Vietnam,thunder_or_convective,3961,Vietnam,0.0,0.460556,-0.460556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2023-04-26|Điện Biên Phủ,175|2023-04-26|Điện Biên Phủ|ctrl1,175,2023-04-26,Vietnam,low_ceiling_1000m,1739,Vietnam,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2023-04-26|Điện Biên Phủ,175|2023-04-26|Điện Biên Phủ|ctrl2,175,2023-04-26,Vietnam,low_ceiling_1000m,3097,Vietnam,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2023-04-26|Điện Biên Phủ,175|2023-04-26|Điện Biên Phủ|ctrl3,175,2023-04-26,Vietnam,low_ceiling_1000m,3961,Vietnam,0.0,0.007778,-0.007778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+7672|2023-01-04|Zigong,7672|2023-01-04|Zigong|ctrl1,7672,2023-01-04,China,low_vis_5km,10851,China,0.0,0.0,0.0,10433.0,2023-02-17,China,same_year_hazard_control_country,0.381111,0.381111,-0.381111,ok
+7672|2023-01-04|Zigong,7672|2023-01-04|Zigong|ctrl2,7672,2023-01-04,China,low_vis_5km,9653,China,0.0,0.0,0.0,10433.0,2023-02-17,China,same_year_hazard_control_country,0.381111,0.381111,-0.381111,ok
+7672|2023-01-04|Zigong,7672|2023-01-04|Zigong|ctrl3,7672,2023-01-04,China,low_vis_5km,7775,China,0.0,0.029444,-0.029444,10433.0,2023-02-17,China,same_year_hazard_control_country,0.381111,0.351667,-0.381111,ok
+7672|2023-02-07|Zigong,7672|2023-02-07|Zigong|ctrl1,7672,2023-02-07,China,low_vis_5km,10851,China,0.0,0.0,0.0,10433.0,2023-02-17,China,same_year_hazard_control_country,0.381111,0.381111,-0.381111,ok
+7672|2023-02-07|Zigong,7672|2023-02-07|Zigong|ctrl2,7672,2023-02-07,China,low_vis_5km,9653,China,0.0,0.0,0.0,10433.0,2023-02-17,China,same_year_hazard_control_country,0.381111,0.381111,-0.381111,ok
+7672|2023-02-07|Zigong,7672|2023-02-07|Zigong|ctrl3,7672,2023-02-07,China,low_vis_5km,7775,China,0.0,0.556667,-0.556667,10433.0,2023-02-17,China,same_year_hazard_control_country,0.381111,-0.175556,-0.381111,ok
+10936|2023-01-02|Phusro,10936|2023-01-02|Phusro|ctrl1,10936,2023-01-02,India,low_vis_5km,10422,India,0.0,0.0,0.0,10954.0,2023-01-17,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10936|2023-01-02|Phusro,10936|2023-01-02|Phusro|ctrl2,10936,2023-01-02,India,low_vis_5km,7703,India,0.0,0.0,0.0,10954.0,2023-01-17,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10936|2023-01-02|Phusro,10936|2023-01-02|Phusro|ctrl3,10936,2023-01-02,India,low_vis_5km,10228,India,0.0,0.0,0.0,10954.0,2023-01-17,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10936|2023-01-17|Phusro,10936|2023-01-17|Phusro|ctrl1,10936,2023-01-17,India,low_vis_5km,10422,India,0.0,0.0,0.0,10954.0,2023-01-02,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10936|2023-01-17|Phusro,10936|2023-01-17|Phusro|ctrl2,10936,2023-01-17,India,low_vis_5km,7703,India,0.0,0.0,0.0,10954.0,2023-01-02,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10936|2023-01-17|Phusro,10936|2023-01-17|Phusro|ctrl3,10936,2023-01-17,India,low_vis_5km,10228,India,0.0,0.0,0.0,10954.0,2023-01-02,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+4263|2023-12-14|Rzeszów,4263|2023-12-14|Rzeszów|ctrl1,4263,2023-12-14,Poland,low_ceiling_300m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2023-12-14|Rzeszów,4263|2023-12-14|Rzeszów|ctrl2,4263,2023-12-14,Poland,low_ceiling_300m,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2023-12-14|Rzeszów,4263|2023-12-14|Rzeszów|ctrl3,4263,2023-12-14,Poland,low_ceiling_300m,3939,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2023-01-22|Rzeszów,4263|2023-01-22|Rzeszów|ctrl1,4263,2023-01-22,Poland,low_ceiling_1000m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2023-01-22|Rzeszów,4263|2023-01-22|Rzeszów|ctrl2,4263,2023-01-22,Poland,low_ceiling_1000m,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2023-01-22|Rzeszów,4263|2023-01-22|Rzeszów|ctrl3,4263,2023-01-22,Poland,low_ceiling_1000m,3939,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2023-03-08|Belgorod,3944|2023-03-08|Belgorod|ctrl1,3944,2023-03-08,Russia,fog,6031,Russia,0.116111,0.0,0.116111,6403.0,2023-01-28,Russia,same_year_hazard_control_country,0.0,0.0,0.116111,ok
+3944|2023-03-08|Belgorod,3944|2023-03-08|Belgorod|ctrl2,3944,2023-03-08,Russia,fog,7378,Russia,0.116111,0.0,0.116111,6403.0,2023-01-28,Russia,same_year_hazard_control_country,0.0,0.0,0.116111,ok
+3944|2023-03-08|Belgorod,3944|2023-03-08|Belgorod|ctrl3,3944,2023-03-08,Russia,fog,6191,Russia,0.116111,0.0,0.116111,6403.0,2023-01-28,Russia,same_year_hazard_control_country,0.0,0.0,0.116111,ok
+3944|2023-12-18|Belgorod,3944|2023-12-18|Belgorod|ctrl1,3944,2023-12-18,Russia,low_vis_5km,6031,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2023-12-18|Belgorod,3944|2023-12-18|Belgorod|ctrl2,3944,2023-12-18,Russia,low_vis_5km,7378,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2023-12-18|Belgorod,3944|2023-12-18|Belgorod|ctrl3,3944,2023-12-18,Russia,low_vis_5km,6191,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2023-01-28|Nizhnekamsk,6403|2023-01-28|Nizhnekamsk|ctrl1,6403,2023-01-28,Russia,fog,6031,Russia,0.0,0.0,0.0,3944.0,2023-03-08,Russia,same_year_hazard_control_country,0.116111,0.116111,-0.116111,ok
+6403|2023-01-28|Nizhnekamsk,6403|2023-01-28|Nizhnekamsk|ctrl2,6403,2023-01-28,Russia,fog,6242,Russia,0.0,0.0,0.0,3944.0,2023-03-08,Russia,same_year_hazard_control_country,0.116111,0.116111,-0.116111,ok
+6403|2023-01-28|Nizhnekamsk,6403|2023-01-28|Nizhnekamsk|ctrl3,6403,2023-01-28,Russia,fog,6191,Russia,0.0,0.0,0.0,3944.0,2023-03-08,Russia,same_year_hazard_control_country,0.116111,0.116111,-0.116111,ok
+6403|2023-10-29|Nizhnekamsk,6403|2023-10-29|Nizhnekamsk|ctrl1,6403,2023-10-29,Russia,low_ceiling_300m,6031,Russia,0.026667,0.0,0.026667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2023-10-29|Nizhnekamsk,6403|2023-10-29|Nizhnekamsk|ctrl2,6403,2023-10-29,Russia,low_ceiling_300m,6242,Russia,0.026667,0.449444,-0.422777,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2023-10-29|Nizhnekamsk,6403|2023-10-29|Nizhnekamsk|ctrl3,6403,2023-10-29,Russia,low_ceiling_300m,6191,Russia,0.026667,1.430556,-1.403889,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2023-01-04|Brest,56|2023-01-04|Brest|ctrl1,56,2023-01-04,France,low_vis_5km,1585,France,0.689444,0.0,0.689444,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2023-01-04|Brest,56|2023-01-04|Brest|ctrl2,56,2023-01-04,France,low_vis_5km,544,France,0.689444,0.992778,-0.303334,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2023-01-04|Brest,56|2023-01-04|Brest|ctrl3,56,2023-01-04,France,low_vis_5km,944,France,0.689444,0.0,0.689444,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2023-07-31|Brest,56|2023-07-31|Brest|ctrl1,56,2023-07-31,France,low_vis_5km,1585,France,2.048333,0.225556,1.822777,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2023-07-31|Brest,56|2023-07-31|Brest|ctrl2,56,2023-07-31,France,low_vis_5km,544,France,2.048333,0.09,1.958333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2023-07-31|Brest,56|2023-07-31|Brest|ctrl3,56,2023-07-31,France,low_vis_5km,944,France,2.048333,2.319444,-0.271111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10210|2023-03-19|Neyveli Township,10210|2023-03-19|Neyveli Township|ctrl1,10210,2023-03-19,India,low_vis_5km,9624,India,0.0,0.0,0.0,10936.0,2023-01-17,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10210|2023-03-19|Neyveli Township,10210|2023-03-19|Neyveli Township|ctrl2,10210,2023-03-19,India,low_vis_5km,9614,India,0.0,0.0,0.0,10936.0,2023-01-17,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10210|2023-03-19|Neyveli Township,10210|2023-03-19|Neyveli Township|ctrl3,10210,2023-03-19,India,low_vis_5km,10422,India,0.0,0.0,0.0,10936.0,2023-01-17,India,same_year_hazard_control_country,0.0,0.0,0.0,ok
+10210|2023-08-12|Neyveli Township,10210|2023-08-12|Neyveli Township|ctrl1,10210,2023-08-12,India,low_vis_5km,9624,India,2.102222,0.0,2.102222,10936.0,2023-01-17,India,same_year_hazard_control_country,0.0,0.0,2.102222,ok
+10210|2023-08-12|Neyveli Township,10210|2023-08-12|Neyveli Township|ctrl2,10210,2023-08-12,India,low_vis_5km,9614,India,2.102222,0.056111,2.046111,10936.0,2023-01-17,India,same_year_hazard_control_country,0.0,-0.056111,2.102222,ok
+10210|2023-08-12|Neyveli Township,10210|2023-08-12|Neyveli Township|ctrl3,10210,2023-08-12,India,low_vis_5km,10422,India,2.102222,0.443333,1.658889,10936.0,2023-01-17,India,same_year_hazard_control_country,0.0,-0.443333,2.102222,ok
+4339|2023-01-23|Lublin,4339|2023-01-23|Lublin|ctrl1,4339,2023-01-23,Poland,low_vis_5km,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2023-01-23|Lublin,4339|2023-01-23|Lublin|ctrl2,4339,2023-01-23,Poland,low_vis_5km,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2023-01-23|Lublin,4339|2023-01-23|Lublin|ctrl3,4339,2023-01-23,Poland,low_vis_5km,4107,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2023-01-22|Lublin,4339|2023-01-22|Lublin|ctrl1,4339,2023-01-22,Poland,low_vis_5km,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2023-01-22|Lublin,4339|2023-01-22|Lublin|ctrl2,4339,2023-01-22,Poland,low_vis_5km,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2023-01-22|Lublin,4339|2023-01-22|Lublin|ctrl3,4339,2023-01-22,Poland,low_vis_5km,4107,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2023-12-14|Stalowa Wola,4225|2023-12-14|Stalowa Wola|ctrl1,4225,2023-12-14,Poland,low_ceiling_300m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2023-12-14|Stalowa Wola,4225|2023-12-14|Stalowa Wola|ctrl2,4225,2023-12-14,Poland,low_ceiling_300m,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2023-12-14|Stalowa Wola,4225|2023-12-14|Stalowa Wola|ctrl3,4225,2023-12-14,Poland,low_ceiling_300m,3349,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2023-01-22|Stalowa Wola,4225|2023-01-22|Stalowa Wola|ctrl1,4225,2023-01-22,Poland,low_ceiling_1000m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2023-01-22|Stalowa Wola,4225|2023-01-22|Stalowa Wola|ctrl2,4225,2023-01-22,Poland,low_ceiling_1000m,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2023-01-22|Stalowa Wola,4225|2023-01-22|Stalowa Wola|ctrl3,4225,2023-01-22,Poland,low_ceiling_1000m,3349,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6023|2023-11-27|Ciudad Valles,6023|2023-11-27|Ciudad Valles|ctrl1,6023,2023-11-27,México,low_ceiling_1000m,5931,México,0.053333,0.0,0.053333,4942.0,2023-12-12,México,same_year_hazard_control_country,0.0,0.0,0.053333,ok
+6023|2023-11-27|Ciudad Valles,6023|2023-11-27|Ciudad Valles|ctrl2,6023,2023-11-27,México,low_ceiling_1000m,913,México,0.053333,0.0,0.053333,4942.0,2023-12-12,México,same_year_hazard_control_country,0.0,0.0,0.053333,ok
+6023|2023-11-27|Ciudad Valles,6023|2023-11-27|Ciudad Valles|ctrl3,6023,2023-11-27,México,low_ceiling_1000m,5665,México,0.053333,0.0,0.053333,4942.0,2023-12-12,México,same_year_hazard_control_country,0.0,0.0,0.053333,ok
+6023|2023-11-20|Ciudad Valles,6023|2023-11-20|Ciudad Valles|ctrl1,6023,2023-11-20,México,fog,5931,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6023|2023-11-20|Ciudad Valles,6023|2023-11-20|Ciudad Valles|ctrl2,6023,2023-11-20,México,fog,913,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6023|2023-11-20|Ciudad Valles,6023|2023-11-20|Ciudad Valles|ctrl3,6023,2023-11-20,México,fog,5665,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2024-08-04|Celaya,4942|2024-08-04|Celaya|ctrl1,4942,2024-08-04,México,low_ceiling_1000m,6696,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2024-08-04|Celaya,4942|2024-08-04|Celaya|ctrl2,4942,2024-08-04,México,low_ceiling_1000m,4288,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2024-08-04|Celaya,4942|2024-08-04|Celaya|ctrl3,4942,2024-08-04,México,low_ceiling_1000m,4212,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2024-07-29|Celaya,4942|2024-07-29|Celaya|ctrl1,4942,2024-07-29,México,low_ceiling_1000m,6696,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2024-07-29|Celaya,4942|2024-07-29|Celaya|ctrl2,4942,2024-07-29,México,low_ceiling_1000m,4288,México,0.0,0.257778,-0.257778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4942|2024-07-29|Celaya,4942|2024-07-29|Celaya|ctrl3,4942,2024-07-29,México,low_ceiling_1000m,4212,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2024-10-01|Karadeniz Ereğli,4379|2024-10-01|Karadeniz Ereğli|ctrl1,4379,2024-10-01,Turkey,thunder_or_convective,858,Turkey,11.673889,0.0,11.673889,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2024-10-01|Karadeniz Ereğli,4379|2024-10-01|Karadeniz Ereğli|ctrl2,4379,2024-10-01,Turkey,thunder_or_convective,3459,Turkey,11.673889,0.116667,11.557222,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2024-10-01|Karadeniz Ereğli,4379|2024-10-01|Karadeniz Ereğli|ctrl3,4379,2024-10-01,Turkey,thunder_or_convective,4341,Turkey,11.673889,7.460556,4.213333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2024-11-15|Karadeniz Ereğli,4379|2024-11-15|Karadeniz Ereğli|ctrl1,4379,2024-11-15,Turkey,low_vis_5km,858,Turkey,0.145556,0.062778,0.082778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2024-11-15|Karadeniz Ereğli,4379|2024-11-15|Karadeniz Ereğli|ctrl2,4379,2024-11-15,Turkey,low_vis_5km,3459,Turkey,0.145556,0.095556,0.05,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4379|2024-11-15|Karadeniz Ereğli,4379|2024-11-15|Karadeniz Ereğli|ctrl3,4379,2024-11-15,Turkey,low_vis_5km,4341,Turkey,0.145556,0.014444,0.131112,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2024-08-12|Điện Biên Phủ,175|2024-08-12|Điện Biên Phủ|ctrl1,175,2024-08-12,Vietnam,low_ceiling_1000m,1739,Vietnam,0.255556,0.232778,0.022778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2024-08-12|Điện Biên Phủ,175|2024-08-12|Điện Biên Phủ|ctrl2,175,2024-08-12,Vietnam,low_ceiling_1000m,5153,Vietnam,0.255556,1.194444,-0.938888,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2024-08-12|Điện Biên Phủ,175|2024-08-12|Điện Biên Phủ|ctrl3,175,2024-08-12,Vietnam,low_ceiling_1000m,1915,Vietnam,0.255556,1.956667,-1.701111,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2024-08-13|Điện Biên Phủ,175|2024-08-13|Điện Biên Phủ|ctrl1,175,2024-08-13,Vietnam,thunder_or_convective,1739,Vietnam,0.677222,4.174444,-3.497222,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2024-08-13|Điện Biên Phủ,175|2024-08-13|Điện Biên Phủ|ctrl2,175,2024-08-13,Vietnam,thunder_or_convective,5153,Vietnam,0.677222,0.121667,0.555555,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+175|2024-08-13|Điện Biên Phủ,175|2024-08-13|Điện Biên Phủ|ctrl3,175,2024-08-13,Vietnam,thunder_or_convective,1915,Vietnam,0.677222,4.550556,-3.873334,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10954|2024-07-05|Giridih,10954|2024-07-05|Giridih|ctrl1,10954,2024-07-05,India,low_vis_5km,10132,India,3.101111,0.411111,2.69,10936.0,2024-01-18,India,same_year_hazard_control_country,0.0,-0.411111,3.101111,ok
+10954|2024-07-05|Giridih,10954|2024-07-05|Giridih|ctrl2,10954,2024-07-05,India,low_vis_5km,10080,India,3.101111,0.009444,3.091667,10936.0,2024-01-18,India,same_year_hazard_control_country,0.0,-0.009444,3.101111,ok
+10954|2024-07-05|Giridih,10954|2024-07-05|Giridih|ctrl3,10954,2024-07-05,India,low_vis_5km,11398,India,3.101111,0.049444,3.051667,10936.0,2024-01-18,India,same_year_hazard_control_country,0.0,-0.049444,3.101111,ok
+10954|2024-01-18|Giridih,10954|2024-01-18|Giridih|ctrl1,10954,2024-01-18,India,low_vis_5km,10132,India,0.0,0.0,0.0,10936.0,2024-07-05,India,same_year_hazard_control_country,0.263889,0.263889,-0.263889,ok
+10954|2024-01-18|Giridih,10954|2024-01-18|Giridih|ctrl2,10954,2024-01-18,India,low_vis_5km,10080,India,0.0,0.0,0.0,10936.0,2024-07-05,India,same_year_hazard_control_country,0.263889,0.263889,-0.263889,ok
+10954|2024-01-18|Giridih,10954|2024-01-18|Giridih|ctrl3,10954,2024-01-18,India,low_vis_5km,11398,India,0.0,0.839444,-0.839444,10936.0,2024-07-05,India,same_year_hazard_control_country,0.263889,-0.575555,-0.263889,ok
+7672|2024-12-22|Zigong,7672|2024-12-22|Zigong|ctrl1,7672,2024-12-22,China,low_vis_5km,10851,China,0.0,0.0,0.0,10433.0,2024-01-02,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+7672|2024-12-22|Zigong,7672|2024-12-22|Zigong|ctrl2,7672,2024-12-22,China,low_vis_5km,9653,China,0.0,0.0,0.0,10433.0,2024-01-02,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+7672|2024-12-22|Zigong,7672|2024-12-22|Zigong|ctrl3,7672,2024-12-22,China,low_vis_5km,7775,China,0.0,0.0,0.0,10433.0,2024-01-02,China,same_year_hazard_control_country,0.0,0.0,0.0,ok
+7672|2024-05-02|Zigong,7672|2024-05-02|Zigong|ctrl1,7672,2024-05-02,China,low_vis_5km,10851,China,0.692778,0.0,0.692778,10433.0,2024-01-02,China,same_year_hazard_control_country,0.0,0.0,0.692778,ok
+7672|2024-05-02|Zigong,7672|2024-05-02|Zigong|ctrl2,7672,2024-05-02,China,low_vis_5km,9653,China,0.692778,0.097222,0.595556,10433.0,2024-01-02,China,same_year_hazard_control_country,0.0,-0.097222,0.692778,ok
+7672|2024-05-02|Zigong,7672|2024-05-02|Zigong|ctrl3,7672,2024-05-02,China,low_vis_5km,7775,China,0.692778,0.69,0.002778,10433.0,2024-01-02,China,same_year_hazard_control_country,0.0,-0.69,0.692778,ok
+3795|2024-06-14|Francisco Beltrão,3795|2024-06-14|Francisco Beltrão|ctrl1,3795,2024-06-14,Brazil,gust_15ms,2872,Brazil,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3795|2024-06-14|Francisco Beltrão,3795|2024-06-14|Francisco Beltrão|ctrl2,3795,2024-06-14,Brazil,gust_15ms,6334,Brazil,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3795|2024-06-14|Francisco Beltrão,3795|2024-06-14|Francisco Beltrão|ctrl3,3795,2024-06-14,Brazil,gust_15ms,7266,Brazil,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3795|2024-01-09|Francisco Beltrão,3795|2024-01-09|Francisco Beltrão|ctrl1,3795,2024-01-09,Brazil,gust_15ms,2872,Brazil,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3795|2024-01-09|Francisco Beltrão,3795|2024-01-09|Francisco Beltrão|ctrl2,3795,2024-01-09,Brazil,gust_15ms,6334,Brazil,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3795|2024-01-09|Francisco Beltrão,3795|2024-01-09|Francisco Beltrão|ctrl3,3795,2024-01-09,Brazil,gust_15ms,7266,Brazil,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+10936|2024-07-05|Phusro,10936|2024-07-05|Phusro|ctrl1,10936,2024-07-05,India,low_vis_5km,11100,India,0.263889,11.031667,-10.767778,10954.0,2024-01-18,India,same_year_hazard_control_country,0.0,-11.031667,0.263889,ok
+10936|2024-07-05|Phusro,10936|2024-07-05|Phusro|ctrl2,10936,2024-07-05,India,low_vis_5km,10422,India,0.263889,0.111667,0.152222,10954.0,2024-01-18,India,same_year_hazard_control_country,0.0,-0.111667,0.263889,ok
+10936|2024-07-05|Phusro,10936|2024-07-05|Phusro|ctrl3,10936,2024-07-05,India,low_vis_5km,11248,India,0.263889,15.363333,-15.099444,10954.0,2024-01-18,India,same_year_hazard_control_country,0.0,-15.363333,0.263889,ok
+10936|2024-01-18|Phusro,10936|2024-01-18|Phusro|ctrl1,10936,2024-01-18,India,low_vis_5km,11100,India,0.0,0.045556,-0.045556,8252.0,2024-01-28,India,same_year_hazard_control_country,2.647222,2.601666,-2.647222,ok
+10936|2024-01-18|Phusro,10936|2024-01-18|Phusro|ctrl2,10936,2024-01-18,India,low_vis_5km,10422,India,0.0,0.0,0.0,8252.0,2024-01-28,India,same_year_hazard_control_country,2.647222,2.647222,-2.647222,ok
+10936|2024-01-18|Phusro,10936|2024-01-18|Phusro|ctrl3,10936,2024-01-18,India,low_vis_5km,11248,India,0.0,0.0,0.0,8252.0,2024-01-28,India,same_year_hazard_control_country,2.647222,2.647222,-2.647222,ok
+11179|2024-02-09|Ruijin,11179|2024-02-09|Ruijin|ctrl1,11179,2024-02-09,China,fog,10147,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+11179|2024-02-09|Ruijin,11179|2024-02-09|Ruijin|ctrl2,11179,2024-02-09,China,fog,11511,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+11179|2024-02-09|Ruijin,11179|2024-02-09|Ruijin|ctrl3,11179,2024-02-09,China,fog,10233,China,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+11179|2024-03-16|Ruijin,11179|2024-03-16|Ruijin|ctrl1,11179,2024-03-16,China,low_vis_5km,10147,China,0.0,0.096667,-0.096667,10433.0,2024-03-22,China,same_year_hazard_control_country,0.779444,0.682777,-0.779444,ok
+11179|2024-03-16|Ruijin,11179|2024-03-16|Ruijin|ctrl2,11179,2024-03-16,China,low_vis_5km,11511,China,0.0,0.0,0.0,10433.0,2024-03-22,China,same_year_hazard_control_country,0.779444,0.779444,-0.779444,ok
+11179|2024-03-16|Ruijin,11179|2024-03-16|Ruijin|ctrl3,11179,2024-03-16,China,low_vis_5km,10233,China,0.0,0.0,0.0,10433.0,2024-03-22,China,same_year_hazard_control_country,0.779444,0.779444,-0.779444,ok
+4263|2024-11-11|Rzeszów,4263|2024-11-11|Rzeszów|ctrl1,4263,2024-11-11,Poland,low_vis_5km,3895,Poland,0.031667,0.0,0.031667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2024-11-11|Rzeszów,4263|2024-11-11|Rzeszów|ctrl2,4263,2024-11-11,Poland,low_vis_5km,3403,Poland,0.031667,0.0,0.031667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2024-11-11|Rzeszów,4263|2024-11-11|Rzeszów|ctrl3,4263,2024-11-11,Poland,low_vis_5km,3068,Poland,0.031667,0.0,0.031667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4263|2024-12-02|Rzeszów,4263|2024-12-02|Rzeszów|ctrl1,4263,2024-12-02,Poland,fog,3895,Poland,0.001667,0.0,0.001667,4225.0,2024-11-11,Poland,same_year_hazard_control_country,0.0,0.0,0.001667,ok
+4263|2024-12-02|Rzeszów,4263|2024-12-02|Rzeszów|ctrl2,4263,2024-12-02,Poland,fog,3403,Poland,0.001667,0.0,0.001667,4225.0,2024-11-11,Poland,same_year_hazard_control_country,0.0,0.0,0.001667,ok
+4263|2024-12-02|Rzeszów,4263|2024-12-02|Rzeszów|ctrl3,4263,2024-12-02,Poland,fog,3068,Poland,0.001667,0.0,0.001667,4225.0,2024-11-11,Poland,same_year_hazard_control_country,0.0,0.0,0.001667,ok
+3944|2024-12-24|Belgorod,3944|2024-12-24|Belgorod|ctrl1,3944,2024-12-24,Russia,low_vis_5km,6031,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2024-12-24|Belgorod,3944|2024-12-24|Belgorod|ctrl2,3944,2024-12-24,Russia,low_vis_5km,7378,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2024-12-24|Belgorod,3944|2024-12-24|Belgorod|ctrl3,3944,2024-12-24,Russia,low_vis_5km,6673,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2024-12-23|Belgorod,3944|2024-12-23|Belgorod|ctrl1,3944,2024-12-23,Russia,low_vis_5km,6031,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2024-12-23|Belgorod,3944|2024-12-23|Belgorod|ctrl2,3944,2024-12-23,Russia,low_vis_5km,7378,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+3944|2024-12-23|Belgorod,3944|2024-12-23|Belgorod|ctrl3,3944,2024-12-23,Russia,low_vis_5km,6673,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2024-12-25|Brest,56|2024-12-25|Brest|ctrl1,56,2024-12-25,France,low_vis_5km,544,France,0.032778,0.105,-0.072222,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2024-12-25|Brest,56|2024-12-25|Brest|ctrl2,56,2024-12-25,France,low_vis_5km,4336,France,0.032778,0.351111,-0.318333,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2024-12-25|Brest,56|2024-12-25|Brest|ctrl3,56,2024-12-25,France,low_vis_5km,4412,France,0.032778,0.119444,-0.086666,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2024-12-26|Brest,56|2024-12-26|Brest|ctrl1,56,2024-12-26,France,low_vis_5km,544,France,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2024-12-26|Brest,56|2024-12-26|Brest|ctrl2,56,2024-12-26,France,low_vis_5km,4336,France,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+56|2024-12-26|Brest,56|2024-12-26|Brest|ctrl3,56,2024-12-26,France,low_vis_5km,4412,France,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2024-12-29|Nizhnekamsk,6403|2024-12-29|Nizhnekamsk|ctrl1,6403,2024-12-29,Russia,low_ceiling_300m,6031,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2024-12-29|Nizhnekamsk,6403|2024-12-29|Nizhnekamsk|ctrl2,6403,2024-12-29,Russia,low_ceiling_300m,7378,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2024-12-29|Nizhnekamsk,6403|2024-12-29|Nizhnekamsk|ctrl3,6403,2024-12-29,Russia,low_ceiling_300m,6242,Russia,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+6403|2024-12-27|Nizhnekamsk,6403|2024-12-27|Nizhnekamsk|ctrl1,6403,2024-12-27,Russia,low_ceiling_1000m,6031,Russia,0.028333,0.353889,-0.325556,46.0,2024-08-29,Guinea,same_year_hazard_control_country,0.236111,-0.117778,-0.207778,ok
+6403|2024-12-27|Nizhnekamsk,6403|2024-12-27|Nizhnekamsk|ctrl2,6403,2024-12-27,Russia,low_ceiling_1000m,7378,Russia,0.028333,0.0,0.028333,46.0,2024-08-29,Guinea,same_year_hazard_control_country,0.236111,0.236111,-0.207778,ok
+6403|2024-12-27|Nizhnekamsk,6403|2024-12-27|Nizhnekamsk|ctrl3,6403,2024-12-27,Russia,low_ceiling_1000m,6242,Russia,0.028333,0.226111,-0.197778,46.0,2024-08-29,Guinea,same_year_hazard_control_country,0.236111,0.01,-0.207778,ok
+2617|2024-08-21|Río Cuarto,2617|2024-08-21|Río Cuarto|ctrl1,2617,2024-08-21,Argentina,low_ceiling_300m,3443,Argentina,0.0,0.080556,-0.080556,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2617|2024-08-21|Río Cuarto,2617|2024-08-21|Río Cuarto|ctrl2,2617,2024-08-21,Argentina,low_ceiling_300m,4739,Argentina,0.0,0.052778,-0.052778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2617|2024-08-21|Río Cuarto,2617|2024-08-21|Río Cuarto|ctrl3,2617,2024-08-21,Argentina,low_ceiling_300m,4775,Argentina,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2617|2024-02-29|Río Cuarto,2617|2024-02-29|Río Cuarto|ctrl1,2617,2024-02-29,Argentina,low_ceiling_1000m,3443,Argentina,10.332778,0.0,10.332778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2617|2024-02-29|Río Cuarto,2617|2024-02-29|Río Cuarto|ctrl2,2617,2024-02-29,Argentina,low_ceiling_1000m,4739,Argentina,10.332778,0.633889,9.698889,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+2617|2024-02-29|Río Cuarto,2617|2024-02-29|Río Cuarto|ctrl3,2617,2024-02-29,Argentina,low_ceiling_1000m,4775,Argentina,10.332778,0.0,10.332778,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2024-12-28|Lublin,4339|2024-12-28|Lublin|ctrl1,4339,2024-12-28,Poland,low_ceiling_300m,3068,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2024-12-28|Lublin,4339|2024-12-28|Lublin|ctrl2,4339,2024-12-28,Poland,low_ceiling_300m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2024-12-28|Lublin,4339|2024-12-28|Lublin|ctrl3,4339,2024-12-28,Poland,low_ceiling_300m,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2024-12-29|Lublin,4339|2024-12-29|Lublin|ctrl1,4339,2024-12-29,Poland,low_ceiling_300m,3068,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2024-12-29|Lublin,4339|2024-12-29|Lublin|ctrl2,4339,2024-12-29,Poland,low_ceiling_300m,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4339|2024-12-29|Lublin,4339|2024-12-29|Lublin|ctrl3,4339,2024-12-29,Poland,low_ceiling_300m,1080,Poland,0.0,0.349444,-0.349444,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2024-11-28|Ensenada,357|2024-11-28|Ensenada|ctrl1,357,2024-11-28,México,fog,5,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2024-11-28|Ensenada,357|2024-11-28|Ensenada|ctrl2,357,2024-11-28,México,fog,5772,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2024-11-28|Ensenada,357|2024-11-28|Ensenada|ctrl3,357,2024-11-28,México,fog,913,México,0.0,0.001667,-0.001667,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2024-04-11|Ensenada,357|2024-04-11|Ensenada|ctrl1,357,2024-04-11,México,fog,5,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2024-04-11|Ensenada,357|2024-04-11|Ensenada|ctrl2,357,2024-04-11,México,fog,5772,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+357|2024-04-11|Ensenada,357|2024-04-11|Ensenada|ctrl3,357,2024-04-11,México,fog,913,México,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2024-11-11|Stalowa Wola,4225|2024-11-11|Stalowa Wola|ctrl1,4225,2024-11-11,Poland,fog,3403,Poland,0.0,0.0,0.0,4263.0,2024-12-02,Poland,same_year_hazard_control_country,0.001667,0.001667,-0.001667,ok
+4225|2024-11-11|Stalowa Wola,4225|2024-11-11|Stalowa Wola|ctrl2,4225,2024-11-11,Poland,fog,3349,Poland,0.0,0.0,0.0,4263.0,2024-12-02,Poland,same_year_hazard_control_country,0.001667,0.001667,-0.001667,ok
+4225|2024-11-11|Stalowa Wola,4225|2024-11-11|Stalowa Wola|ctrl3,4225,2024-11-11,Poland,fog,1080,Poland,0.0,0.0,0.0,4263.0,2024-12-02,Poland,same_year_hazard_control_country,0.001667,0.001667,-0.001667,ok
+4225|2024-12-02|Stalowa Wola,4225|2024-12-02|Stalowa Wola|ctrl1,4225,2024-12-02,Poland,fog,3403,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2024-12-02|Stalowa Wola,4225|2024-12-02|Stalowa Wola|ctrl2,4225,2024-12-02,Poland,fog,3349,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric
+4225|2024-12-02|Stalowa Wola,4225|2024-12-02|Stalowa Wola|ctrl3,4225,2024-12-02,Poland,fog,1080,Poland,0.0,0.0,0.0,,,,missing_false_event_donor,,,,missing_false_event_or_metric

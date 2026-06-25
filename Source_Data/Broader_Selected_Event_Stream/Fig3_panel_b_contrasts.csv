@@ -1,0 +1,4 @@
+label,estimate,ci_low,ci_high,color,interval_method,n_clusters
+Main matched GPM,0.5185561899224804,0.2011065024366073,0.8360058774083534,#0F766E,small-sample corrected cluster-robust t interval,344
+Event-placebo net,0.5799866270676691,0.1515614457352944,1.0084118084000435,#B76E2A,small-sample corrected cluster-robust t interval,261
+False-event control,0.0705130290237466,-0.4681178979862087,0.6091439560337021,#6B7280,small-sample corrected cluster-robust t interval,129

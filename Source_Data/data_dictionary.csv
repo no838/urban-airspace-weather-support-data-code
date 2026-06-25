@@ -1,11 +1,30 @@
 file,grain,purpose
-component_year_panel_full.csv,component-year,"Residual object construction, global map, threshold and denominator sensitivity."
-expected_support_model_diagnostics.csv,component-year,Observed vs predicted support and residual distribution diagnostics.
-benchmark_screen_rankings.csv,2024 component,"Benchmark non-equivalence, overlap, rank and top-decile comparisons."
-event_true_source_panel.csv,event component-date,Event source distribution and event-day hazard metrics.
-event_matched_low_gap_controls.csv,event-control pair,Matched-control event validation and matching-balance diagnostics.
-event_robustness_estimates.csv,robustness specification,"Forest/specification plot for robustness, placebo, null and boundary checks."
-event_placebo_controls.csv,event-control-placebo row,Strict placebo diagnostics.
-event_false_event_controls.csv,event-control-false-event row,False-event negative control diagnostics.
-event_permutation_results.csv,summary only,Permutation summary; iteration-level table is not available in current derived export.
-country_metadata.csv,country,Spatial grouping; world_region/income_group currently unavailable where blank.
+component_year_panel_full.csv,component-year,"Released panel: 114,220 rows representing 11,422 stable components."
+canonical_2024_screen_flags.csv,component-year,Canonical 2024-calibrated q75/q90/q95 flags and positive residual public-support gap.
+canonical_2024_q75_components.csv,2024 component,Canonical 651-component main screen across 82 countries.
+expected_support_model_diagnostics.csv,component-year,Released fitted values and residual diagnostics for the original expected-support benchmark.
+available_field_expected_support_refit_2024.csv,2024 component,Fully reproducible pooled-control sensitivity using nonblank released controls.
+country_within_between_model_summary_2024.csv,model coefficient,"Pooled, within-country, between-country and country-FE need estimates."
+country_fixed_effect_model_summary_2024.csv,model summary,"Need-only, pooled, country-FE and denominator-certain model summary."
+component_screen_stability_2024.csv,2024 component,"Canonical membership and selection frequency under 1,000 need-weight draws."
+selection_frequency_summary_2024.csv,summary,Counts above frequency thresholds and 441-component model core.
+screen_sensitivity_overlap_2024.csv,screen summary,"Overlap among canonical, available-field, within–between, country-FE and no-hazard screens."
+multimodel_core_components_2024.csv,2024 component,441-component canonical–available-field–country-FE intersection.
+benchmark_fixed_size_comparison_2024.csv,benchmark summary,Equal-size 651-component benchmark overlap and random-null comparison.
+benchmark_random_null_iterations.csv,random draw,"10,000 equal-size random-screen overlap iterations."
+screen_calibration_and_comparison_rules.csv,screen rule,Canonical 2024 calibration and model-specific residual comparison rules.
+canonical_threshold_grid_2024.csv,threshold cell,2024 retained count and share across need/residual threshold grid.
+event_q75_aligned_true_source_panel.csv,selected event component-date,Primary 152 exactly aligned dates and event-day weather fields.
+event_q75_aligned_matched_controls.csv,event-control pair,Primary exact-q75 controls; three rows per selected event date.
+event_q75_aligned_cluster_robustness.csv,contrast specification,"Event-date, component and country clustered inference plus adjustment."
+event_q75_aligned_placebo_controls.csv,event-control-placebo row,Exact-q75 placebo eligibility and contrasts.
+event_q75_aligned_false_event_controls.csv,event-control-false-event row,Exact-q75 false-event negative-control rows.
+event_q75_aligned_permutation_results.csv,permutation summary,"10,000-iteration within-event matched-set permutation result."
+event_q75_aligned_permutation_iterations.csv,permutation iteration,Iteration-level null distribution.
+event_stream_alignment_and_contrast_summary.csv,stream summary,Primary exact-q75 stream versus broader selected-stream sensitivity.
+no_hazard_event_sensitivity.csv,cluster specification,Selected-case sensitivity after removing weather_hazard_proxy from need.
+Broader_Selected_Event_Stream/event_true_source_panel.csv,selected event component-date,Broader 344-date stream retained only as sensitivity.
+Broader_Selected_Event_Stream/event_matched_low_gap_controls.csv,selected event-control pair,"Broader 1,032-row matched sensitivity stream."
+construct_reconstruction_audit.csv,construct audit,Exact downstream checks and disclosed upstream boundaries.
+component_and_proxy_provenance_boundary.csv,construct object,Released evidence and unavailable upstream provenance.
+panel_variance_decomposition.csv,variable summary,Between- versus within-component variance and cross-year diagnostics.

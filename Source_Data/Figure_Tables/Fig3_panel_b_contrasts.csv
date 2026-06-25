@@ -1,4 +1,4 @@
-label,estimate,ci_low,ci_high,color
-Main matched GPM,0.5185561899224806,0.3175347214544829,0.7195776583904784,#0F766E
-Event-placebo net,0.5799866270676691,0.2988574476579921,0.8611158064773461,#B76E2A
-False-event control,0.0705130290237467,-0.2409964936826825,0.3820225517301759,#6B7280
+label,estimate,ci_low,ci_high,color,n_clusters,interval_method
+Main matched GPM,0.4064692960526314,0.07985968892301454,0.7330789031822482,#0F766E,152,small-sample corrected cluster-robust t interval
+Event-placebo net,0.21197639024390236,-0.0003151732599364909,0.4242679537477412,#B76E2A,119,small-sample corrected cluster-robust t interval
+False-event control,0.19171826428571426,-0.39218183239065285,0.7756183609620814,#6B7280,48,small-sample corrected cluster-robust t interval

@@ -1,0 +1,7 @@
+source,rows,grain,boundary
+Component-year donor pool,114220,component-year,"sufficient for need-weight, model-form and threshold-grid robustness; not event-date rematching"
+Selected candidate events,344,component-date selected events,not a complete component-date event candidate universe
+Current matched controls,1032,event-control pair,reusable for conditional subset diagnostics; not a donor pool for new matching
+ERA5 wind boundary matched panel,1032,current matched rows,selected matched-set wind/scalar diagnostics only
+NOAA visibility/ceiling/wind selected events,344,selected event station-day,selected-event diagnostic only; not independent full validation universe
+Complete component-date event universe,0,component-date universe,not supplied; full re-selection/rematching under alternative screens cannot be claimed

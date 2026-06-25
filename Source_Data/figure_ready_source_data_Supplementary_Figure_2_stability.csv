@@ -1,60 +1,11 @@
-panel,claim_role,metric,value,unit,source_file,status,claim_boundary,replace_after_stability_gate
-A,global screening scale,component_year_rows,114220,rows,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.csv,current,screening only,False
-A,global screening scale,components,11422,components,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.csv,current,screening only,False
-A,global screening scale,countries,191,countries,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.csv,current,screening only,False
-A,global screening scale,p90_gap,0.2815,score,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.csv,current,screening only,False
-A,top 2024 examples,India - Renukoot,0.5133,score,PROJECT_ROOT/data/analysis_ready/top_gap_city_components_uncertainty_split.csv,current,examples only,False
-A,top 2024 examples,India - Dalla,0.5096,score,PROJECT_ROOT/data/analysis_ready/top_gap_city_components_uncertainty_split.csv,current,examples only,False
-A,top 2024 examples,India - Waidhan,0.5043,score,PROJECT_ROOT/data/analysis_ready/top_gap_city_components_uncertainty_split.csv,current,examples only,False
-A,top 2024 examples,Vietnam - Yen Bai,0.4949,score,PROJECT_ROOT/data/analysis_ready/top_gap_city_components_uncertainty_split.csv,current,examples only,False
-A,top 2024 examples,India - Anpara,0.4915,score,PROJECT_ROOT/data/analysis_ready/top_gap_city_components_uncertainty_split.csv,current,examples only,False
-B,benchmark distinctiveness,population_only_top_decile_overlap,0.0689,share,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-B,benchmark distinctiveness,population_only_linear_r2,0.0052,R2,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-B,benchmark distinctiveness,airport_only_top_decile_overlap,0.0496,share,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-B,benchmark distinctiveness,airport_only_linear_r2,0.0863,R2,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-B,benchmark distinctiveness,climate_only_top_decile_overlap,0.0000,share,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-B,benchmark distinctiveness,climate_only_linear_r2,0.0120,R2,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-B,benchmark distinctiveness,official_station_density_only_top_decile_overlap,0.0173,share,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-B,benchmark distinctiveness,official_station_density_only_linear_r2,0.3013,R2,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-B,benchmark distinctiveness,random_station_coverage_top_decile_overlap,0.1009,share,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-B,benchmark distinctiveness,random_station_coverage_linear_r2,0.0000,R2,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-B,benchmark distinctiveness,official_density_increment_vs_pop_airport_climate_top_decile_overlap,,share,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-B,benchmark distinctiveness,official_density_increment_vs_pop_airport_climate_linear_r2,0.2185,R2,PROJECT_ROOT/metadata/component_year_v2_t1_gate_benchmark_overall.csv,current,not a mechanism proof,False
-C,denominator boundary,uncertainty_False_rows,57330,rows,PROJECT_ROOT/metadata/component_year_v2_t1_gate_uncertainty_strata.csv,current,public-data denominator boundary,False
-C,denominator boundary,uncertainty_False_mean_gap,-0.0874,score,PROJECT_ROOT/metadata/component_year_v2_t1_gate_uncertainty_strata.csv,current,public-data denominator boundary,False
-C,denominator boundary,uncertainty_False_mean_support,0.5923,support index,PROJECT_ROOT/metadata/component_year_v2_t1_gate_uncertainty_strata.csv,current,public-data denominator boundary,False
-C,denominator boundary,uncertainty_True_rows,56890,rows,PROJECT_ROOT/metadata/component_year_v2_t1_gate_uncertainty_strata.csv,current,public-data denominator boundary,False
-C,denominator boundary,uncertainty_True_mean_gap,0.0880,score,PROJECT_ROOT/metadata/component_year_v2_t1_gate_uncertainty_strata.csv,current,public-data denominator boundary,False
-C,denominator boundary,uncertainty_True_mean_support,0.4071,support index,PROJECT_ROOT/metadata/component_year_v2_t1_gate_uncertainty_strata.csv,current,public-data denominator boundary,False
-D,no-era5 fallback event-validation,event_rows,1032,rows,data/analysis_ready/event_validation_kmatched_low_gap_controls_stability_2020_2024.csv,no_era5_fallback,no-ERA5 screening gate; not operational proof and not causal evidence,False
-D,no-era5 fallback event-validation,GPM precip_mean_diff,0.5186,mm,data/analysis_ready/event_validation_kmatched_low_gap_controls_stability_2020_2024.csv,no_era5_fallback,no-ERA5 screening gate; not operational proof and not causal evidence,False
-D,no-era5 fallback event-validation,GPM precip_ci95,0.3175 to 0.7196,mm,data/analysis_ready/event_validation_kmatched_low_gap_controls_stability_2020_2024.csv,no_era5_fallback,no-ERA5 screening gate; not operational proof and not causal evidence,False
-D,no-era5 fallback event-validation,ERA5 precip_mean_diff,,mm,data/analysis_ready/event_validation_kmatched_low_gap_controls_stability_2020_2024.csv,no_era5_fallback,no-ERA5 screening gate; not operational proof and not causal evidence,False
-D,no-era5 fallback event-validation,ERA5 precip_ci95, to ,mm,data/analysis_ready/event_validation_kmatched_low_gap_controls_stability_2020_2024.csv,no_era5_fallback,no-ERA5 screening gate; not operational proof and not causal evidence,False
-D,no-era5 fallback event-validation,ERA5 cloud_mean_diff,,fraction,data/analysis_ready/event_validation_kmatched_low_gap_controls_stability_2020_2024.csv,no_era5_fallback,no-ERA5 screening gate; not operational proof and not causal evidence,False
-D,no-era5 fallback event-validation,ERA5 cloud_ci95, to ,fraction,data/analysis_ready/event_validation_kmatched_low_gap_controls_stability_2020_2024.csv,no_era5_fallback,no-ERA5 screening gate; not operational proof and not causal evidence,False
-D,no-era5 fallback event-validation,ERA5 wind_mean_diff,,m/s,data/analysis_ready/event_validation_kmatched_low_gap_controls_stability_2020_2024.csv,no_era5_fallback,no-ERA5 screening gate; not operational proof and not causal evidence,False
-D,no-era5 fallback event-validation,ERA5 wind_ci95, to ,m/s,data/analysis_ready/event_validation_kmatched_low_gap_controls_stability_2020_2024.csv,no_era5_fallback,no-ERA5 screening gate; not operational proof and not causal evidence,False
-E,claim boundary,readiness_label,DRAFT_ONLY / T1-candidate evidence sprint,label,PROJECT_ROOT/metadata/t1_claim_ledger_20260526.csv,current,not T1-ready,False
-E,claim boundary,claim_ledger_rows,10,rows,PROJECT_ROOT/metadata/t1_claim_ledger_20260526.csv,current,claim ledger controls wording,False
-E,claim boundary,claim_status_allowed_current,3,claims,PROJECT_ROOT/metadata/t1_claim_ledger_20260526.csv,current,claim ledger controls wording,False
-E,claim boundary,claim_status_conditional,3,claims,PROJECT_ROOT/metadata/t1_claim_ledger_20260526.csv,current,claim ledger controls wording,False
-E,claim boundary,claim_status_blocked_until_gate_passes,1,claims,PROJECT_ROOT/metadata/t1_claim_ledger_20260526.csv,current,claim ledger controls wording,False
-E,claim boundary,claim_status_blocked,3,claims,PROJECT_ROOT/metadata/t1_claim_ledger_20260526.csv,current,claim ledger controls wording,False
-B,threshold sensitivity,max_det_top_overlap_q85,0.10476246060464574,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,screening benchmark robustness only,False
-B,threshold sensitivity,max_det_top_overlap_q90,0.06889608684233564,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,screening benchmark robustness only,False
-B,threshold sensitivity,max_det_top_overlap_q95,0.029936974789915968,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,screening benchmark robustness only,False
-B,leave-one-country-out,loco_p95_max_det_top_overlap_q90,0.06992261881653367,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,screening benchmark robustness only,False
-B,leave-one-country-out,loco_median_max_det_top_overlap_q90,0.06898978862523937,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,screening benchmark robustness only,False
-C,alternative demand proxy,alt_gap_legacy_demand_top_overlap_with_main_q90,0.6981528495141381,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,proxy-construction sensitivity only,False
-C,alternative demand proxy,alt_gap_no_gdp_top_overlap_with_main_q90,0.9212991333274971,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,proxy-construction sensitivity only,False
-C,alternative demand proxy,alt_gap_no_ntl_top_overlap_with_main_q90,0.9103562986956141,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,proxy-construction sensitivity only,False
-C,alternative demand proxy,alt_gap_no_policy_top_overlap_with_main_q90,0.9590300271382299,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,proxy-construction sensitivity only,False
-C,alternative demand proxy,alt_gap_no_vertiport_top_overlap_with_main_q90,0.9310163704806093,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,proxy-construction sensitivity only,False
-C,alternative demand proxy,main_gap_selected_top_overlap_with_main_q90,1.0,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,proxy-construction sensitivity only,False
-B,coast split robustness,global_inland_top_rate,0.11409110259684972,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,coast/inland descriptive split only,False
-B,coast split robustness,global_coastal_top_rate,0.07748571428571428,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,coast/inland descriptive split only,False
-C,china decomposition,china_rank_corr_gap_demand_proxy_v2,-0.09250150399152149,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,association only; not causal,False
-C,china decomposition,china_rank_corr_gap_public_hourly_support,-0.9270022445295469,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,association only; not causal,False
-C,china decomposition,china_top_share_global_top,0.3035870516185476,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,contribution share only,False
-C,china decomposition,china_uncertainty_share_top,0.962536023054755,share,PROJECT_ROOT/data/analysis_ready/component_year_mismatch_panel_v2_demand_proxy_v2_20260526.parquet,current,denominator-boundary only,False
+year,rows,q75,q90,q95,q75_share,q90_share,q95_share
+2015,11422,675,101,21,0.05909648047627386,0.008842584486079495,0.0018385571703729644
+2016,11422,669,102,23,0.05857117842759587,0.008930134827525827,0.0020136578532656277
+2017,11422,676,98,23,0.05918403081772019,0.008579933461740501,0.0020136578532656277
+2018,11422,667,98,23,0.058396077744703206,0.008579933461740501,0.0020136578532656277
+2019,11422,653,98,23,0.05717037296445456,0.008579933461740501,0.0020136578532656277
+2020,11422,662,101,22,0.057958326037471544,0.008842584486079495,0.0019261075118192962
+2021,11422,681,104,25,0.059621782524951844,0.00910523551041849,0.0021887585361582912
+2022,11422,657,96,20,0.05752057433023989,0.008404832778847838,0.001751006828926633
+2023,11422,672,101,22,0.05883382945193486,0.008842584486079495,0.0019261075118192962
+2024,11422,651,85,13,0.0569952722815619,0.0074417790229381895,0.0011381544388023113

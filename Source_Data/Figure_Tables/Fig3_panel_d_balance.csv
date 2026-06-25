@@ -1,4 +1,4 @@
-covariate,absolute_smd
-Coast distance,0.1049941283541261
-Nearest airport distance,0.1632606737363297
-Population density,0.26378618307891794
+covariate,smd,absolute_smd
+Coast distance,0.3176887741543637,0.3176887741543637
+Nearest airport distance,-0.10332223375194372,0.10332223375194372
+Population density,0.18763861393522083,0.18763861393522083

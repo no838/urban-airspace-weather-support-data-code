@@ -1,0 +1,2 @@
+event_stream,rows,q75_residual_deficit_rows,q90_residual_deficit_rows,q95_residual_deficit_rows,boundary_note
+selected event-validation stream,344,152,48,28,"The supplied event file is a selected-event stream, not a complete component-date event universe; only part of it overlaps the exact q75 residual-deficit component-years."

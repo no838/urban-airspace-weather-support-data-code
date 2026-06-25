@@ -1,7 +1,7 @@
 claim_role,metric,value,unit,status,claim_boundary
-core phenomenon,year_2024_residual_deficit_q75_rows,657,component-years,supports screening claim,residual high-need lower-than-expected public support
-core phenomenon,support_model_r2,0.32256049274380705,r2,diagnostic,"expected support model, not causal"
-denominator boundary,year_2024_denominator_false_q75_deficit_rows,183,component-years,uncertainty gate,must persist outside denominator-uncertain stratum
-country dominance boundary,exclude_china_india_retained_share,0.6423135464231354,share,dominance gate,not a single-country universality claim
-benchmark boundary,max_simple_benchmark_overlap,0.1659056316590563,share,benchmark gate,not reproduced by simple benchmark if low
-validation boundary,event_validation_status,pending stability parser,label,hold,no weather-relevance upgrade before matched true-source validation
+canonical screen,canonical_2024_q75_components,651,components,primary diagnostic,2024-calibrated high-need lower-than-expected public support
+geographic coverage,canonical_2024_q75_countries,82,countries,descriptive coverage,not a national meteorological-capacity ranking
+country structure,within_country_need_slope,-0.06438299042865989,standardized coefficient,country-context diagnostic,within-country allocation differs from pooled between-country scaling
+model agreement,cross_model_core_components,441,components,robust core,"canonical, available-field and country-FE intersection"
+definition stability,selection_frequency_ge_0_50,490,components,weight sensitivity,"selection frequency across 1,000 need-weight draws"
+benchmark boundary,max_fixed_size_benchmark_overlap_pct,16.589861751152075,percent,benchmark diagnostic,every comparator fixed to 651 components and evaluated against random null

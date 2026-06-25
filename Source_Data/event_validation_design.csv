@@ -1,7 +1,11 @@
 source_table,grain,key_fields,purpose
-event_true_source_panel.csv,event component-date,"event_id, component_id, event_date_utc, dominant_hazard, GPM precipitation",Candidate-event universe and event-day weather proxy.
-event_matched_low_gap_controls.csv,event-control pair,"match_id, control_component_id, match_stage, match_distance_score, match_country_equal, match_koppen_equal",Matched low-gap controls and balance/matching diagnostics.
-event_placebo_controls.csv,event-control-placebo row,"placebo_date_utc, placebo_source_rule, observed_minus_placebo_diff, placebo_status",Event-minus-placebo net contrast and placebo eligibility.
-event_false_event_controls.csv,event-control-false-event row,"false_event_date_utc, false_event_source_rule, observed_minus_false_event_diff, false_event_status",False-event negative-control diagnostic.
-event_permutation_results.csv,summary,"observed_estimate, p_value, null_q025, null_q975",Matched-set label-permutation null envelope.
-event_robustness_estimates.csv,robustness specification,"estimate, ci_low, ci_high, n_pairs, boundary_note",Reported contrast estimates and 95% intervals.
+event_q75_aligned_true_source_panel.csv,event component-date,"event_id, component_id, event_date_utc, residual_deficit_q75, GPM precipitation",Primary event dates exactly aligned to the released q75 component-year indicator.
+event_q75_aligned_matched_controls.csv,event-control pair,"event_id, event_component_id, control_component_id, match_stage, paired GPM difference",Primary exact-q75 matched comparison; three controls per event date.
+event_q75_aligned_cluster_robustness.csv,contrast specification,"estimate, ci_low, ci_high, cluster_variable, n_clusters",Primary event-date clustering; component/country dependence sensitivities and event-level adjustment.
+event_q75_aligned_placebo_controls.csv,event-control-placebo row,"event_id, observed_minus_placebo_diff, placebo_status",Exact-q75 placebo diagnostics.
+event_q75_aligned_false_event_controls.csv,event-control-false-event row,"event_id, observed_minus_false_event_diff, false_event_status",Exact-q75 false-event negative-control diagnostics.
+event_q75_aligned_permutation_results.csv,summary,"observed, null_q025, null_q975, p_value_two_sided, iterations",Within-event permutation that chooses one pseudo-event among each event and its three controls.
+event_q75_aligned_permutation_iterations.csv,iteration,"iteration, permuted_estimate",Iteration-level null distribution; seed and iteration count recorded in summary.
+event_stream_alignment_and_contrast_summary.csv,stream summary,"stream, events, matched_rows, event_components, countries",Distinguishes the primary exact-q75 subset from the broader selected-event sensitivity.
+Broader_Selected_Event_Stream/event_true_source_panel.csv,selected event component-date,"event_id, component_id, event_date_utc",Broader 344-date selected stream; not the primary q75 validation set.
+Broader_Selected_Event_Stream/event_matched_low_gap_controls.csv,selected event-control pair,"event_id, control_component_id","Broader 1,032-row sensitivity stream."

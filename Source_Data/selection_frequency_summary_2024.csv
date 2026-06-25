@@ -1,0 +1,2 @@
+population,n_components,frequency_median,frequency_p05,frequency_p95,n_frequency_ge_0_50,n_frequency_ge_0_80,n_frequency_lt_0_20,draws,model_core_n,graded_core_n,definition
+primary canonical 2024 q75 components,651,0.672,0.265,0.994,490,214,28,1000,441,441,selection frequency across stored Dirichlet weights with draw-specific 2024 need q75 and model residual q25

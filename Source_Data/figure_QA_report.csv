@@ -1,13 +1,16 @@
 figure,quantitative_share,status,notes
-Figure_1,1.0,PASS,V11 asset is data-drawn from 2024 q75 residual-deficit rows; white-filled shape legend; colourbar encodes residual public support deficit.
-Figure_2,1.0,PASS,Clean v9 asset is data-drawn from packaged source/derived tables; panel count = 4; no decorative schematic panels.
-Figure_3,1.0,PASS,V12 asset is data-drawn; panel b reports the event-minus-placebo net contrast over placebo-eligible matches.
-Figure_4,1.0,PASS,V11 asset is data-drawn and ties benchmark overlap/rank association to the q75 retained object.
-Supplementary_Figure_1,1.0,PASS,Clean v9 asset is data-drawn from packaged source/derived tables; panel count = 4; no decorative schematic panels.
-Supplementary_Figure_2,1.0,PASS,Clean v9 asset is data-drawn from packaged source/derived tables; panel count = 4; no decorative schematic panels.
-Supplementary_Figure_3,1.0,PASS,Clean v9 asset is data-drawn from packaged source/derived tables; panel count = 4; no decorative schematic panels.
-Supplementary_Figure_4,1.0,PASS,Clean v9 asset is data-drawn from packaged source/derived tables; panel count = 2; no decorative schematic panels.
-Supplementary_Figure_5,1.0,PASS,Clean v9 asset is data-drawn from packaged source/derived tables; panel count = 4; no decorative schematic panels.
-Supplementary_Figure_6,1.0,PASS,Clean v9 asset is data-drawn from packaged source/derived tables; panel count = 4; no decorative schematic panels.
-Supplementary_Figure_7,1.0,PASS,Clean v9 asset is data-drawn from packaged source/derived tables; panel count = 4; no decorative schematic panels.
-Supplementary_Figure_8,1.0,PASS,Clean v9 asset is data-drawn from packaged source/derived tables; panel count = 4; no decorative schematic panels.
+Figure_1,1.0,PASS,"Canonical 651-component, 82-country map; p99 display cap and denominator shape boundary disclosed."
+Figure_2,1.0,PASS,"Panels a–c use the 2024 cross-section and positive support-gap sign; panel d is a fixed-threshold stability audit, not trend."
+Figure_3,1.0,PASS,Exactly 152 canonical-q75 dates; event-date primary interval and component/country sensitivities shown or reported.
+Figure_4,1.0,PASS,"Exactly 651 components per comparator, 10,000-draw random null, within–between coefficients, model overlap and selection frequency."
+Supplementary_Figure_1,1.0,PASS,"11,422 recurring components distinguished from 114,220 rows; persistence rather than trend."
+Supplementary_Figure_2,1.0,PASS,Released need-proxy composition and stability shown without claiming user-elicited demand.
+Supplementary_Figure_3,1.0,PASS,Released expected-support diagnostics and raw-model reproduction boundary stated.
+Supplementary_Figure_4,1.0,PASS,Legacy tie-expanded associations retained only as historical sensitivity; canonical fixed-size comparison is in Fig. 4a.
+Supplementary_Figure_5,1.0,PASS,Broader selected-stream matching diagnostics explicitly separated from the primary exact-q75 stream.
+Supplementary_Figure_6,1.0,PASS,"Exactly aligned year, country, hazard-label and cluster-level selected-case heterogeneity."
+Supplementary_Figure_7,1.0,PASS,"Aligned placebo, false-event, permutation and dependence diagnostics."
+Supplementary_Figure_8,1.0,PASS,"Country concentration and denominator uncertainty treated as boundaries, not rankings."
+Supplementary_Figure_9,0.0,PASS,"Stage-1 screen separated from local audit, variable validation and service evaluation."
+Supplementary_Figure_10,1.0,PASS,"Weight, model, threshold, conditional selected-stream and data-universe sensitivities shown without full event-reselection claim."
+Supplementary_Figure_11,1.0,PASS,Canonical 2024 threshold grid demonstrates definition sensitivity.

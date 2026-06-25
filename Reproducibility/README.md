@@ -1,22 +1,16 @@
-# Reproducibility archive
-
-This clean submission archive provides figure-ready source tables, diagnostic ledgers, field dictionaries, checksums and audit scripts. It is designed for reviewer navigation and verification of the submitted figures and manuscript claims.
+# Reproducibility archive — v6
 
 Run from the package root:
 
 ```bash
+python Reproducibility/run_canonical_2024_analysis.py
+python Reproducibility/build_weather_support_figures.py
+python Reproducibility/build_weather_support_supplementary_figures.py
 python Reproducibility/run_reproduction_audit.py
 ```
 
-The script checks that the key manuscript- and SI-referenced source tables exist and validates selected headline values where available. Raw third-party records are not redistributed as a single archive because they remain subject to source-specific licensing and access terms.
+The canonical analysis script rebuilds the 2024-calibrated screen, within–between country decomposition, country-FE and available-field sensitivities, 1,000-draw selection frequencies, no-hazard ablation, equal-size benchmark null and exactly aligned selected-case tables from packaged derived objects. Fixed seeds are recorded in the scripts.
 
-Final figure rendering uses the figure-ready tables in `Source_Data/` and
-`Source_Data/Figure_Tables/`:
+The two figure scripts rebuild Main Figures 1–4 and Supplementary Figures 1, 2, 8, 10 and 11 from packaged source tables. Supplementary Figures 3–7 and 9 are supplied as figure artifacts with their corresponding source tables and provenance records; no separate legacy figure-building script is required or claimed.
 
-```bash
-python Reproducibility/scripts/build_v44_top_journal_main_figures.py
-```
-
-The rendering script rebuilds main Figures 1-4 and Supplementary Figures 6, 7
-and 9 from packaged derived/source tables only. It does not require raw
-third-party data.
+Raw third-party station-hour records, original urban polygons, constituent-proxy generation pipelines and the original GDP-inclusive expected-support fit are not distributed. Their absence is documented in the provenance tables.

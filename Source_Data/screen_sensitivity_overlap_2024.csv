@@ -1,0 +1,5 @@
+sensitivity,retained_2024,shared_with_primary,jaccard_with_primary,share_of_primary_recovered,countries_2024
+Available-field refit,723,615,0.8102766798418972,0.9447004608294931,85
+Within-between model,630,553,0.7596153846153846,0.8494623655913979,81
+Country fixed effects,513,447,0.6234309623430963,0.6866359447004609,57
+No-hazard need,668,419,0.46555555555555556,0.6436251920122887,81

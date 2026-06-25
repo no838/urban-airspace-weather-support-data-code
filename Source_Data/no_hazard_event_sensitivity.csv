@@ -1,0 +1,4 @@
+cluster,estimate,ci_low,ci_high,p_value,n_rows,n_clusters,cluster_variable,interval_method
+event_id,0.45055701322751324,0.06144895593400024,0.8396650705210262,0.023597585188412016,378,126,event_id,small-sample corrected cluster-robust t interval
+event_component_id,0.45055701322751324,-0.07637496204335553,0.977488988498382,0.08923255464895492,378,19,event_component_id,small-sample corrected cluster-robust t interval
+event_country,0.45055701322751324,-0.09555091170288482,0.9966649381579114,0.09484825606239727,378,10,event_country,small-sample corrected cluster-robust t interval

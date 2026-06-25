@@ -1,0 +1,10 @@
+record_type,branch_or_screen,need_quantile_or_rule,need_threshold_z,residual_quantile_or_rule,residual_threshold_z,reference_year,interpretation
+primary calibration,q75,0.75,0.5891119533600613,0.25,-0.7220364651177561,2024,fixed 2024 thresholds applied to each annual component
+primary calibration,q90,0.9,1.3455946109386119,0.1,-1.1262133153050742,2024,fixed 2024 thresholds applied to each annual component
+primary calibration,q95,0.95,1.809820391745393,0.05,-1.3817334383808346,2024,fixed 2024 thresholds applied to each annual component
+comparison rule,Primary q75,need_composite_z >= 2024 q75,,primary support_residual_z <= 2024 q25,,2024,canonical screen; fixed thresholds applied to annual audits
+comparison rule,Available-field pooled,same 2024 q75 need convention,,model-specific 2024 residual q25,-0.7438237030434486,2024,fully reproducible residual-model sensitivity
+comparison rule,Country fixed effects,same 2024 q75 need convention,,model-specific 2024 residual q25,-0.6042197540639259,2024,country-intercept sensitivity
+comparison rule,Within-between,same 2024 q75 need convention,,model-specific 2024 residual q25,-0.6874863194774342,2024,within- and between-country decomposition
+comparison rule,No-hazard need,2024 q75 of two-proxy no-hazard composite,0.6464523169622858,model-specific 2024 residual q25,-0.6699068795423884,2024,weather-hazard-proxy ablation
+comparison rule,Dirichlet weights,draw-specific 2024 weighted-need q75,,draw-specific 2024 model residual q25,,2024,selection-frequency analysis

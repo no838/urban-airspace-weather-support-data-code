@@ -1,7 +1,7 @@
 {
-  "title": "Derived data and code for public weather-support deficits in urban low-altitude systems",
+  "title": "Derived data and code for a global public hourly weather-information support diagnostic",
   "upload_type": "dataset",
-  "description": "Derived data, diagnostic ledgers, figure-ready tables and lightweight reproducibility code supporting the analysis of public weather-support deficits in urban low-altitude systems. Raw third-party records are not redistributed because they remain subject to source-specific licensing and access terms.",
+  "description": "Versioned derived analytical objects and code supporting a global diagnostic of public hourly weather-information support gaps for low-altitude services. The release reproduces the canonical 2024 screen, country-context sensitivities, definition-stability analyses, selected-case precipitation consistency checks and manuscript figures from released derived tables. Restricted raw third-party records are not redistributed.",
   "creators": [
     {
       "name": "Zhou, Xi-Yin"
@@ -13,10 +13,12 @@
   "access_right": "open",
   "license": "cc-by-4.0",
   "keywords": [
-    "urban airspace",
-    "low-altitude systems",
+    "climate-service diagnostics",
+    "weather services",
     "public weather information",
-    "derived data",
-    "reproducibility"
-  ]
+    "low-altitude services",
+    "reproducibility",
+    "diagnostic screening"
+  ],
+  "version": "v7.0.0"
 }

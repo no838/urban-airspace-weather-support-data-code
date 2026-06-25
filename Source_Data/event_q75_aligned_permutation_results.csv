@@ -1,0 +1,2 @@
+observed,null_q025,null_median,null_q975,p_value_two_sided,iterations,n_events,permutation_unit,random_seed
+0.40629142105263155,-0.21528338881578946,-0.0059868201754386015,0.24295440328947362,0.00039996000399960006,10000,152,within event date: choose one of event plus three controls as pseudo-event,20260625

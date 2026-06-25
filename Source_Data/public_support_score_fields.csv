@@ -1,7 +1,11 @@
-field,role_in_manuscript,use_in_reproducibility
-public_hourly_surface_observation_support,Primary public support score used as S in the residual screen.,"Defines observed public hourly support for Fig. 1, Fig. 2 and Fig. 4 diagnostics."
-public_hourly_station_count_50km,Traceable public hourly station-count field.,Audits the public hourly support substrate around each component.
-official_station_count_50km,Official station-universe count field.,Provides a legacy station-universe reference for denominator diagnostics.
-public_hourly_availability_ratio,Ratio field for public hourly availability.,Documents persistence of public hourly support.
-station_universe_completeness_ratio,Completeness ratio for the station-universe boundary.,Supports denominator-certain/uncertain classification.
-public_support_z,Standardized public-support field.,Used in expected-support modelling and residual construction.
+field,exact_relation_or_role,use_in_reproducibility,boundary
+public_hourly_surface_observation_support,Precomputed upstream public hourly support index S_it.,Primary observed support object.,Raw station-hour reconstruction requires reacquisition under provider terms.
+public_support_z,(S_it - panel mean) / panel population SD.,Expected-support modelling and residual construction.,"Exactly reconstructed from the 114,220-row panel."
+public_hourly_station_count_50km,Released public-hourly station count within 50 km.,Substrate audit.,Does not by itself define S_it.
+official_station_count_50km,Released official station-universe count within 50 km.,Benchmark and denominator reference.,Not a census of all private or hidden capacity.
+public_hourly_availability_ratio,Alias of station_universe_completeness_ratio in current export.,Denominator-boundary audit.,Not an independent evidence dimension.
+station_universe_completeness_ratio,Alias of public_hourly_availability_ratio in current export.,Denominator-boundary audit.,Ratio = 1 is certain; missing or <1 is uncertain.
+denominator_uncertainty_flag,missing(completeness ratio) OR ratio < 1.,Denominator-stratified sensitivity.,Exactly reconstructed with zero mismatches.
+expected_public_support_z,Released upstream expected-support object.,Defines support_residual_z.,Exact GDP-inclusive fit cannot be refitted because GDP/control-z columns are blank.
+support_residual_z,public_support_z - expected_public_support_z.,Defines lower-than-expected support.,Exactly reconstructed after accepting released expected support.
+residual_public_observability_deficit,-support_residual_z.,Higher-is-worse map score.,Exact sign reversal.
